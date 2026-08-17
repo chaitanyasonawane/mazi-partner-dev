@@ -1,47 +1,122 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import "./page.css";
 
 export default function PartnerPage() {
+
   const [menuOpen, setMenuOpen] = useState(false);
-  const [openFaq, setOpenFaq] = useState<number | null>(0);
+
+  const [openFaq, setOpenFaq] =
+    useState<number | null>(0);
+
+  const [isScrolled, setIsScrolled] =
+    useState(false);
+
+  useEffect(() => {
+
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 80);
+    };
+
+    window.addEventListener(
+      "scroll",
+      handleScroll
+    );
+
+    handleScroll();
+
+    return () => {
+      window.removeEventListener(
+        "scroll",
+        handleScroll
+      );
+    };
+
+  }, []);
 
   return (
     <main>
 
       {/* ================= HEADER ================= */}
 
-      <header className="header">
+      <header
+        className={`header ${
+          isScrolled ? "header-scrolled" : ""
+        }`}
+      >
 
         <div className="header-container">
-<a href="#home" className="logo">
-  <img
-    src="/images/partner-logo.png"
-    alt="MaziFinance"
-  />
-</a>
+
+          {/* ================= LOGO ================= */}
+
+          <a
+            href="#home"
+            className="logo"
+            onClick={() => setMenuOpen(false)}
+          >
+            <img
+              src="/images/partner-logo.png"
+              alt="MaziFinance"
+            />
+          </a>
+
+
+          {/* ================= DESKTOP NAV ================= */}
 
           <nav className="desktop-nav">
-            <a href="#home">Home</a>
-            <a href="#trading">Trading</a>
-            <a href="#partners">Affiliates</a>
-            <a href="#company">Company</a>
-            <a href="#faq">FAQs</a>
+
+            <a href="#home">
+              Home
+            </a>
+
+            <a href="#trading">
+              Trading
+            </a>
+
+            <a href="#partners">
+              Affiliates
+            </a>
+
+            <a href="#company">
+              Company
+            </a>
+
+            <a href="#faq">
+              FAQs
+            </a>
+
           </nav>
 
+
+          {/* ================= HEADER BUTTONS ================= */}
+
           <div className="header-buttons">
-            <button className="login-button">
+
+            <button
+              className="login-button"
+              type="button"
+            >
               Sign in
             </button>
 
-            <button className="account-button">
+            <button
+              className="account-button"
+              type="button"
+            >
               Open Account
             </button>
+
           </div>
+
+
+          {/* ================= MOBILE MENU BUTTON ================= */}
 
           <button
             className="mobile-menu-button"
+            type="button"
+            aria-label="Toggle navigation menu"
+            aria-expanded={menuOpen}
             onClick={() => setMenuOpen(!menuOpen)}
           >
             ☰
@@ -49,23 +124,68 @@ export default function PartnerPage() {
 
         </div>
 
+
+        {/* ================= MOBILE MENU ================= */}
+
         {menuOpen && (
           <div className="mobile-menu">
 
-            <a href="#home">Home</a>
-            <a href="#trading">Trading</a>
-            <a href="#partners">Affiliates</a>
-            <a href="#company">Company</a>
-            <a href="#faq">FAQs</a>
+            <a
+              href="#home"
+              onClick={() => setMenuOpen(false)}
+            >
+              Home
+            </a>
 
-            <button>Sign in</button>
-            <button>Open Account</button>
+            <a
+              href="#trading"
+              onClick={() => setMenuOpen(false)}
+            >
+              Trading
+            </a>
+
+            <a
+              href="#partners"
+              onClick={() => setMenuOpen(false)}
+            >
+              Affiliates
+            </a>
+
+            <a
+              href="#company"
+              onClick={() => setMenuOpen(false)}
+            >
+              Company
+            </a>
+
+            <a
+              href="#faq"
+              onClick={() => setMenuOpen(false)}
+            >
+              FAQs
+            </a>
+
+            <button
+              type="button"
+              onClick={() => setMenuOpen(false)}
+            >
+              Sign in
+            </button>
+
+            <button
+              type="button"
+              onClick={() => setMenuOpen(false)}
+            >
+              Open Account
+            </button>
 
           </div>
         )}
 
       </header>
 
+
+      
 
       {/* ================= HERO ================= */}
 
@@ -158,13 +278,22 @@ export default function PartnerPage() {
   
 
 
+  
+
     {/* ================= CARDS ================= */}
 
-    <div className="partner-cards">
+<div className="partner-cards">
 
   {/* CARD 1 */}
   <article className="partner-card">
-    <div className="card-icon">%</div>
+
+    <div className="card-icon">
+      <img
+        src="/images/card-icon-1.png"
+        alt=""
+        aria-hidden="true"
+      />
+    </div>
 
     <img
       src="/images/card1.png"
@@ -180,12 +309,20 @@ export default function PartnerPage() {
         $50/lot commissions with MaziFinance.
       </p>
     </div>
+
   </article>
 
 
   {/* CARD 2 */}
   <article className="partner-card">
-    <div className="card-icon">$</div>
+
+    <div className="card-icon">
+      <img
+        src="/images/card-icon-2.png"
+        alt=""
+        aria-hidden="true"
+      />
+    </div>
 
     <img
       src="/images/card2.png"
@@ -201,12 +338,20 @@ export default function PartnerPage() {
         $50/lot commissions with MaziFinance.
       </p>
     </div>
+
   </article>
 
 
   {/* CARD 3 */}
   <article className="partner-card">
-    <div className="card-icon">◴</div>
+
+    <div className="card-icon">
+      <img
+        src="/images/card-icon-3.png"
+        alt=""
+        aria-hidden="true"
+      />
+    </div>
 
     <img
       src="/images/card3.png"
@@ -222,12 +367,20 @@ export default function PartnerPage() {
         $50/lot commissions with MaziFinance.
       </p>
     </div>
+
   </article>
 
 
   {/* CARD 4 */}
   <article className="partner-card">
-    <div className="card-icon">♙</div>
+
+    <div className="card-icon">
+      <img
+        src="/images/card-icon-4.png"
+        alt=""
+        aria-hidden="true"
+      />
+    </div>
 
     <img
       src="/images/card4.png"
@@ -243,12 +396,20 @@ export default function PartnerPage() {
         $50/lot commissions with MaziFinance.
       </p>
     </div>
+
   </article>
 
 
   {/* CARD 5 */}
   <article className="partner-card">
-    <div className="card-icon">$</div>
+
+    <div className="card-icon">
+      <img
+        src="/images/card-icon-5.png"
+        alt=""
+        aria-hidden="true"
+      />
+    </div>
 
     <img
       src="/images/card5.png"
@@ -264,8 +425,10 @@ export default function PartnerPage() {
         $50/lot commissions with MaziFinance.
       </p>
     </div>
+
   </article>
-  </div>
+
+</div>
 </div>
 
 </section>
@@ -302,10 +465,7 @@ export default function PartnerPage() {
 
     <div className="commission-table">
 
-      <div className="table-row table-header">
-        <div>Market</div>
-        <div>Commission</div>
-      </div>
+      
 
       <div className="table-row">
         <div>Forex</div>
