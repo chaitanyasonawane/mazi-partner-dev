@@ -228,8 +228,12 @@ export default function PartnerPage() {
       </div>
 
       
+  
+      
 
     </div>
+
+    <div className="hero-glass-blur"></div>
 
   </div>
 </section>
@@ -296,7 +300,7 @@ export default function PartnerPage() {
     </div>
 
     <img
-      src="/images/card1.png"
+      src="/images/card5.png"
       alt=""
       className="card-decoration card-decoration-1"
       aria-hidden="true"
@@ -437,8 +441,7 @@ export default function PartnerPage() {
 
 
 
-
-      {/* ================= COMMISSIONS ================= */}
+{/* ================= COMMISSIONS ================= */}
 
 <section className="commission-section" id="trading">
 
@@ -452,11 +455,13 @@ export default function PartnerPage() {
 
   <div className="container commission-container">
 
+    {/* Commission Heading */}
     <h2 className="commission-heading">
       MaziFinance
       <span> Affiliate Commissions</span>
     </h2>
 
+    {/* Commission Description */}
     <p className="commission-description">
       Eight integrated AI models working together for analysis, strategy,
       backtesting, simulation, auditing, journaling, news, and risk.
@@ -465,38 +470,53 @@ export default function PartnerPage() {
 
     <div className="commission-table">
 
-      
+  <div
+    className="commission-table-border"
+    aria-hidden="true"
+  />
 
-      <div className="table-row">
-        <div>Forex</div>
-        <div>$50/Lot</div>
-      </div>
+  <div className="table-row">
+    <div>Forex</div>
+    <div>$50/Lot</div>
+  </div>
 
+
+      {/* Indices */}
       <div className="table-row">
         <div>Indices</div>
         <div>$45/Lot</div>
       </div>
 
+
+      {/* Energy */}
       <div className="table-row">
         <div>Energy</div>
         <div>$50/Lot</div>
       </div>
 
+
+      {/* Metals */}
       <div className="table-row">
         <div>Metals</div>
         <div>$50/Lot</div>
       </div>
 
+
+      {/* Shares */}
       <div className="table-row">
         <div>Shares</div>
         <div>$40/Lot</div>
       </div>
 
+
+      {/* Crypto */}
       <div className="table-row">
         <div>Crypto</div>
         <div>$50/Lot</div>
       </div>
 
+
+      {/* Commodities */}
       <div className="table-row">
         <div>Commodities</div>
         <div>$50/Lot</div>
@@ -505,6 +525,7 @@ export default function PartnerPage() {
     </div>
 
 
+    {/* Commission Tagline */}
     <h3 className="commission-tagline">
       <span>One platform.</span>
       Multiple markets. Serious commissions.
@@ -515,29 +536,49 @@ export default function PartnerPage() {
 </section>
 
 
-      {/* ================= HOW IT WORKS ================= */}
+{/* ================= HOW IT WORKS ================= */}
 
 <section className="start-trading-section">
 
   {/* CSS glow effects */}
-  <div className="trading-glow trading-glow-left" />
-  <div className="trading-glow trading-glow-right" />
+  <div
+    className="trading-glow trading-glow-left"
+    aria-hidden="true"
+  />
+
+  <div
+    className="trading-glow trading-glow-right"
+    aria-hidden="true"
+  />
+
 
   <div className="start-trading-container">
 
+    {/* Heading */}
     <div className="center-heading">
+
       <h2>
         How to Start Trading with{" "}
         <span>MaziFinance</span>
       </h2>
+
     </div>
 
+
+    {/* Steps */}
     <div className="steps">
 
-      <div className="step">
-        <div className="step-number">1</div>
 
-        <h3>Share Link</h3>
+      {/* STEP 1 */}
+      <div className="step">
+
+        <div className="step-number">
+          1
+        </div>
+
+        <h3>
+          Share Link
+        </h3>
 
         <p>
           Share your unique referral
@@ -546,13 +587,20 @@ export default function PartnerPage() {
           <br />
           or your website
         </p>
+
       </div>
 
 
+      {/* STEP 2 */}
       <div className="step">
-        <div className="step-number">2</div>
 
-        <h3>User Clicks</h3>
+        <div className="step-number">
+          2
+        </div>
+
+        <h3>
+          User Clicks
+        </h3>
 
         <p>
           Potential client clicks your
@@ -561,13 +609,20 @@ export default function PartnerPage() {
           <br />
           platform
         </p>
+
       </div>
 
 
+      {/* STEP 3 */}
       <div className="step">
-        <div className="step-number">3</div>
 
-        <h3>Signs Up</h3>
+        <div className="step-number">
+          3
+        </div>
+
+        <h3>
+          Signs Up
+        </h3>
 
         <p>
           User creates account and
@@ -576,13 +631,20 @@ export default function PartnerPage() {
           <br />
           process
         </p>
+
       </div>
 
 
+      {/* STEP 4 */}
       <div className="step">
-        <div className="step-number">4</div>
 
-        <h3>Start Trading</h3>
+        <div className="step-number">
+          4
+        </div>
+
+        <h3>
+          Start Trading
+        </h3>
 
         <p>
           Client deposits funds and
@@ -591,13 +653,20 @@ export default function PartnerPage() {
           <br />
           platform
         </p>
+
       </div>
 
 
+      {/* STEP 5 */}
       <div className="step">
-        <div className="step-number">5</div>
 
-        <h3>Earn Commission</h3>
+        <div className="step-number">
+          5
+        </div>
+
+        <h3>
+          Earn Commission
+        </h3>
 
         <p>
           You receive instant
@@ -606,6 +675,7 @@ export default function PartnerPage() {
           <br />
           traded by your referral
         </p>
+
       </div>
 
     </div>
@@ -613,6 +683,7 @@ export default function PartnerPage() {
   </div>
 
 </section>
+
 
       {/* ================= FAQ ================= */}
 
@@ -799,7 +870,7 @@ export default function PartnerPage() {
   {/* ================= MAZIFINANCE VECTOR ================= */}
 
   <img
-    src="/images/partner-logo.png"
+    src="/images/partner-logo-footer.png"
     alt=""
     className="footer-vector"
     aria-hidden="true"

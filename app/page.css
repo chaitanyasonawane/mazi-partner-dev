@@ -886,29 +886,34 @@ a {
     rgba(255, 255, 255, 0.15);
 }
 
-
 /* =========================================================
    HERO IMAGE
 ========================================================= */
 
 .hero-image {
+
   position: absolute;
 
-  width: 558px;
-  height: 540px;
+  width: 490px !important;
 
-  top: 125px;
-  left: 812px;
+  height: 482.5px !important;
+
+  top: 120px;
+
+  left: 900px;
 
   z-index: 3;
 
   pointer-events: none;
 }
 
+
 .hero-image img {
+
   display: block;
 
   width: 100%;
+
   height: 100%;
 
   object-fit: contain;
@@ -916,6 +921,73 @@ a {
   object-position: center;
 }
 
+/* =========================================================
+   HERO GLASS BLUR CORNER
+========================================================= */
+
+.hero-glass-blur {
+  position: absolute;
+
+  width: 317.34px;
+  height: 764.26px;
+
+  top: 120px;
+  right: -170px;
+
+  transform:
+    rotate(40.32deg);
+
+  transform-origin:
+    center center;
+
+  /*
+   * GLASS TINT
+   * Increase this value for a stronger visible glass layer.
+   */
+  background:
+    rgba(134, 134, 134, 0.18);
+
+  /*
+   * STRONG FROSTED GLASS
+   */
+  backdrop-filter:
+    blur(100px)
+    saturate(100%);
+
+  -webkit-backdrop-filter:
+    blur(100px)
+    saturate(100%);
+
+  /*
+   * Soft internal glass lighting
+   */
+  box-shadow:
+    inset 0 0 100px
+    rgba(255, 255, 255, 0.08);
+
+  /*
+   * Very subtle glass edge
+   */
+  border:
+    1px solid
+    rgba(255, 255, 255, 0.08);
+
+  box-sizing:
+    border-box;
+
+  z-index:
+    10;
+
+  pointer-events:
+    none;
+
+
+  will-change:
+    backdrop-filter;
+
+  isolation:
+    isolate;
+}
 
 /* =========================================================
    LARGE LAPTOP
@@ -1161,6 +1233,16 @@ a {
 
     filter: blur(250px);
   }
+
+
+  /* -----------------------------------------
+     GLASS BLUR
+     Move down on tablet
+  ----------------------------------------- */
+
+  .hero-glass-blur {
+    top: 350px;
+  }
 }
 
 
@@ -1195,6 +1277,16 @@ a {
     );
 
     margin-top: 40px;
+  }
+
+
+  /* -----------------------------------------
+     GLASS BLUR
+     Additional downward adjustment
+  ----------------------------------------- */
+
+  .hero-glass-blur {
+    top: 370px;
   }
 }
 
@@ -1298,6 +1390,16 @@ a {
     filter:
       blur(190px);
   }
+
+
+  /* -----------------------------------------
+     GLASS BLUR
+     Move further down
+  ----------------------------------------- */
+
+  .hero-glass-blur {
+    top: 400px;
+  }
 }
 
 
@@ -1331,6 +1433,16 @@ a {
       );
 
     margin-top: 32px;
+  }
+
+
+  /* -----------------------------------------
+     GLASS BLUR
+     Further down for small mobile
+  ----------------------------------------- */
+
+  .hero-glass-blur {
+    top: 420px;
   }
 }
 
@@ -1367,7 +1479,18 @@ a {
   .hero-image {
     margin-top: 28px;
   }
+
+
+  /* -----------------------------------------
+     GLASS BLUR
+     Maximum downward adjustment
+  ----------------------------------------- */
+
+  .hero-glass-blur {
+    top: 440px;
+  }
 }
+
 
 /* =========================================
    COMMON DARK SECTION
@@ -1416,26 +1539,22 @@ a {
 .center-heading span {
   color: var(--purple);
 }
-
 /* =========================================================
    WHY PARTNER SECTION
 ========================================================= */
 
 .why-section {
   position: relative;
-
   width: 100%;
-
   min-height: 900px;
-
   overflow: hidden;
 
-  padding:
-    105px 20px 120px;
+  padding: 105px 20px 120px;
 
-  background:
-    #101014;
+  background: #101014;
 }
+
+
 
 
 /* =========================================================
@@ -1493,18 +1612,16 @@ a {
    CONTAINER
 ========================================================= */
 
+
 .why-container {
   position: relative;
-
   z-index: 3;
 
   width: 100%;
-
-  max-width: 1060px;
+  max-width: 1210px;
 
   margin: 0 auto;
 }
-
 
 /* =========================================================
    HEADING
@@ -1582,45 +1699,32 @@ a {
 ========================================================= */
 
 .partner-cards {
-
   display: grid;
 
-  grid-template-columns:
-    repeat(6, 1fr);
+  grid-template-columns: repeat(6, 1fr);
 
-  gap:
-    20px 20px;
+  gap: 20px;
 
   width: 100%;
+
+  max-width: 1210px;
+
+  margin: 0 auto;
 }
-
-
-/* First three cards */
 
 .partner-card:nth-child(1),
 .partner-card:nth-child(2),
 .partner-card:nth-child(3) {
-
-  grid-column:
-    span 2;
+  grid-column: span 2;
 }
-
-
-/* Second row */
 
 .partner-card:nth-child(4) {
-
-  grid-column:
-    2 / span 2;
+  grid-column: 2 / span 2;
 }
-
 
 .partner-card:nth-child(5) {
-
-  grid-column:
-    4 / span 2;
+  grid-column: 4 / span 2;
 }
-
 
 /* =========================================================
    CARD
@@ -1631,6 +1735,8 @@ a {
   position: relative;
 
   height: 270px;
+
+  width: 390;
 
   overflow: hidden;
 
@@ -1818,13 +1924,13 @@ left: -10px;
 
 .card-decoration-1 {
 
-  width: 175px;
+  width: 190px;
 
-  height: 159px;
+  height: 175px;
 
   top: 11px;
 
-  left: 205px;
+  left: 241px;
 
   transform: none;
 }
@@ -1836,13 +1942,13 @@ left: -10px;
 
 .card-decoration-2 {
 
-  width: 145.298px;
+  width: 190.298px;
 
-  height: 145.298px;
+  height: 190.298px;
 
-  top: 10px;
+  top: 8px;
 
-  left: 210px;
+  left: 220px;
 
   transform: none;
 }
@@ -1854,13 +1960,13 @@ left: -10px;
 
 .card-decoration-3 {
 
-  width: 195px;
+  width: 225px;
 
-  height: 135px;
+  height: 165px;
 
   top: 4px;
 
-  left: 205px;
+  left: 233px;
 
   transform: none;
 }
@@ -1872,13 +1978,13 @@ left: -10px;
 
 .card-decoration-4 {
 
-  width: 108.124px;
+  width: 148px;
 
-  height: 140.269px;
+  height: 180px;
 
   top: -5px;
 
-  left: 240px;
+  left: 253px;
 
   transform: none;
 }
@@ -1890,13 +1996,13 @@ left: -10px;
 
 .card-decoration-5 {
 
-  width: 175px;
+  width: 190px;
 
-  height: 159px;
+  height: 175px;
 
   top: 11px;
 
-  left: 205px;
+  left: 241px;
 
   transform: none;
 }
@@ -3162,130 +3268,7 @@ left: -10px;
    COMMISSION
 ========================================= */
 /* =========================================================
-   COMMISSION SECTION
-========================================================= */
-
-.commission-section {
-  position: relative;
-
-  width: 100%;
-
-  overflow: hidden;
-
-  padding: 85px 20px 100px;
-
-  background: #ffffff;
-}
-
-
-/* =========================================================
-   CONTENT
-========================================================= */
-
-.commission-container {
-  position: relative;
-
-  z-index: 3;
-
-  max-width: 900px;
-
-  margin: 0 auto;
-}
-
-
-
-
-/* =========================================================
-   HEADING
-========================================================= */
-
-.commission-heading {
-  margin: 0;
-
-  text-align: center;
-
-  font-family:
-    "Google Sans Flex",
-    sans-serif;
-
-  font-weight: 500;
-
-  font-style: normal;
-
-  font-size: 48px;
-
-  line-height: 110%;
-
-  letter-spacing: -0.96px;
-
-  color: #3b3b3d;
-}
-
-.commission-heading span {
-  color: #9700d7;
-}
-
-
-/* =========================================================
-   DESCRIPTION
-========================================================= */
-
-.commission-description {
-  width: 100%;
-
-  max-width: 700px;
-
-  margin: 22px auto 0;
-
-  text-align: center;
-
-  font-family:
-    "Albert Sans",
-    sans-serif;
-
-  font-weight: 400;
-
-  font-style: normal;
-
-  font-size: 18px;
-
-  line-height: 135%;
-
-  letter-spacing: -0.36px;
-
-  color: #34394d;
-}
-
-/* =========================================================
-   3D BACKGROUND DECORATION
-========================================================= */
-
-.commission-decoration {
-  position: absolute;
-
-  width: 400px;
-  height: auto;
-
-  rotate: -35deg;
-
-  top: 360px;
-
-  right: 45px;
-
-  object-fit: contain;
-
-  /* Decoration intensity */
-  opacity: 0.25;
-
-  z-index: 1;
-
-  pointer-events: none;
-
-  user-select: none;
-}
-
-/* =========================================================
-   COMMISSION TABLE — GLASS / BLUR TRANSPARENCY
+   COMMISSION TABLE
 ========================================================= */
 
 .commission-table {
@@ -3299,16 +3282,74 @@ left: -10px;
 
   overflow: hidden;
 
-  /* Transparency */
-  background: rgba(247, 247, 249, 0.48);
+  box-sizing: border-box;
 
-  /* glass blur */
-  backdrop-filter: blur(40px);
-  -webkit-backdrop-filter: blur(40px);
+  background: transparent !important;
 
   border-radius: 0;
 
-  box-sizing: border-box;
+  /*
+   * REMOVE TABLE TOP BORDER
+   */
+  border-top: none !important;
+
+  box-shadow: none !important;
+
+  isolation: isolate;
+}
+
+
+/* =========================================================
+   DESIRED COLORED TOP LINE
+========================================================= */
+
+.commission-table-border {
+  position: relative;
+
+  width: 100%;
+
+  height: 7px;
+
+  margin: 0;
+
+  padding: 0;
+
+  /*
+   * Your desired split line.
+   */
+  background:
+    linear-gradient(
+      90deg,
+      #d1d1d5 0%,
+      #d1d1d5 50%,
+      #9700d7 50%,
+      #c94cff 100%
+    );
+
+  border: none !important;
+
+  box-shadow: none !important;
+
+  z-index: 20;
+
+  pointer-events: none;
+
+  flex-shrink: 0;
+}
+
+
+/* =========================================================
+   REMOVE ANY OLD TABLE HEADER BORDER
+========================================================= */
+
+.table-header {
+  border: none !important;
+
+  border-top: none !important;
+
+  border-bottom: none !important;
+
+  box-shadow: none !important;
 }
 
 
@@ -3317,23 +3358,33 @@ left: -10px;
 ========================================================= */
 
 .table-row {
+  position: relative;
+
   display: grid;
 
   grid-template-columns: 1fr 1fr;
 
-  align-items: center;
+  align-items: stretch;
 
   min-height: 69px;
 
+  width: 100%;
+
+  box-sizing: border-box;
+
+  background: transparent !important;
+
+  border-top: none !important;
+
   border-bottom:
-    1px solid rgba(255, 255, 255, 0.55);
+    1px solid
+    rgba(255, 255, 255, 0.72);
 
-  /* Transparent */
-  background: rgba(247, 247, 249, 0.48);
+  backdrop-filter: none !important;
 
-  /* Blur background behind each row */
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: none !important;
+
+  z-index: 5;
 }
 
 
@@ -3342,14 +3393,19 @@ left: -10px;
 ========================================================= */
 
 .table-row > div {
+  position: relative;
+
   height: 100%;
+
+  min-width: 0;
 
   display: flex;
 
   align-items: center;
 
-  padding:
-    15px 54px;
+  box-sizing: border-box;
+
+  padding: 15px 54px;
 
   font-family:
     "Archivo",
@@ -3365,21 +3421,44 @@ left: -10px;
 
   color: #898d98;
 
-  background: transparent;
+  background:
+    rgba(247, 247, 249, 0.62) !important;
+
+  backdrop-filter:
+    blur(24px);
+
+  -webkit-backdrop-filter:
+    blur(24px);
+
+  border-top: none !important;
+
+  z-index: 6;
 }
 
 
 /* =========================================================
-   PURPLE COMMISSION COLUMN
+   LEFT COLUMN
+========================================================= */
+
+.table-row > div:first-child {
+  background:
+    rgba(247, 247, 249, 0.62) !important;
+}
+
+
+/* =========================================================
+   RIGHT COLUMN
 ========================================================= */
 
 .table-row > div:last-child {
-
   background:
-    rgba(150, 0, 215, 0.32);
+    rgba(150, 0, 215, 0.10) !important;
 
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
+  border-left:
+    1px solid
+    rgba(255, 255, 255, 0.72);
+
+  border-top: none !important;
 
   font-family:
     "Google Sans Flex",
@@ -3396,28 +3475,6 @@ left: -10px;
 
 
 /* =========================================================
-   TOP BORDER
-========================================================= */
-
-.table-header {
-
-  min-height: 8px;
-
-  border-bottom:
-    1px solid rgba(255, 255, 255, 0.5);
-
-  background:
-    linear-gradient(
-      90deg,
-      rgba(209, 209, 213, 0.65) 0%,
-      rgba(209, 209, 213, 0.65) 50%,
-      rgba(155, 0, 216, 0.9) 50%,
-      rgba(201, 76, 255, 0.9) 100%
-    );
-}
-
-
-/* =========================================================
    LAST ROW
 ========================================================= */
 
@@ -3425,56 +3482,40 @@ left: -10px;
   border-bottom: none;
 }
 
-
 /* =========================================================
-   TAGLINE
+   3D BACKGROUND DECORATION
 ========================================================= */
 
-.commission-tagline {
+.commission-decoration {
+  position: absolute;
 
-  position: relative;
+  width: 400px;
 
-  z-index: 5;
+  height: auto;
 
-  margin:
-    65px 0 0;
+  top: 360px;
 
-  text-align: center;
+  right: 45px;
 
-  font-family:
-    "Google Sans Flex",
-    sans-serif;
+  rotate: -35deg;
 
-  font-weight: 500;
+  object-fit: contain;
 
-  font-size: 30px;
+  /*
+   * Decoration visibility.
+   */
+  opacity: 0.42;
 
-  line-height: 110%;
+  /*
+   * MUST be behind the table.
+   */
+  z-index: 1;
 
-  letter-spacing: -0.6px;
+  pointer-events: none;
 
-  color: #050505;
-}
+  user-select: none;
 
-
-.commission-tagline span {
-  color: #b14cff;
-}
-
-/* =========================================================
-   LAPTOP
-========================================================= */
-
-@media (max-width: 1200px) {
-
-  .commission-decoration {
-    width: 270px;
-
-    top: 390px;
-    right: -20px;
-
-    opacity: 0.30;
-  }
+  max-width: none;
 }
 
 
@@ -3482,39 +3523,65 @@ left: -10px;
    TABLET
 ========================================================= */
 
-@media (max-width: 900px) {
-
-  .commission-section {
-    padding:
-      70px 20px 80px;
-  }
-
-  .commission-decoration {
-    width: 230px;
-
-    top: 430px;
-    right: -60px;
-
-    opacity: 0.25;
-  }
+@media (min-width: 601px) and (max-width: 900px) {
 
   .commission-table {
     margin-top: 60px;
   }
 
+  .commission-table-border {
+    height: 6px;
+  }
+
+  .table-row {
+    min-height: 62px;
+  }
+
   .table-row > div {
     padding:
-      14px 30px;
+      14px 25px;
 
-    font-size: 17px;
+    font-size:
+      17px;
+
+    backdrop-filter:
+      blur(20px);
+
+    -webkit-backdrop-filter:
+      blur(20px);
+  }
+
+  .table-row > div:first-child {
+    backdrop-filter:
+      blur(20px) !important;
+
+    -webkit-backdrop-filter:
+      blur(20px) !important;
   }
 
   .table-row > div:last-child {
-    font-size: 17px;
+    font-size:
+      17px;
+
+    backdrop-filter:
+      blur(20px) !important;
+
+    -webkit-backdrop-filter:
+      blur(20px) !important;
   }
 
-  .commission-tagline {
-    font-size: 25px;
+  .commission-decoration {
+    width:
+      220px;
+
+    right:
+      -65px;
+
+    top:
+      390px;
+
+    opacity:
+      0.30;
   }
 }
 
@@ -3525,64 +3592,66 @@ left: -10px;
 
 @media (max-width: 600px) {
 
-  .commission-section {
-    padding:
-      60px 15px 70px;
-  }
-
-  .commission-heading {
-    font-size: 34px;
-
-    letter-spacing: -0.68px;
-  }
-
-  .commission-heading span {
-    font-size: 34px;
-  }
-
-  .commission-description {
-    margin-top: 18px;
-
-    font-size: 14px;
-  }
-
   .commission-table {
-    margin-top: 45px;
+    margin-top:
+      42px;
+  }
+
+  .commission-table-border {
+    height:
+      6px;
   }
 
   .table-row {
-    min-height: 56px;
+    min-height:
+      56px;
   }
 
   .table-row > div {
     padding:
-      12px 16px;
+      11px 14px;
 
-    font-size: 15px;
+    font-size:
+      14px;
+
+    backdrop-filter:
+      blur(18px);
+
+    -webkit-backdrop-filter:
+      blur(18px);
+  }
+
+  .table-row > div:first-child {
+    backdrop-filter:
+      blur(18px) !important;
+
+    -webkit-backdrop-filter:
+      blur(18px) !important;
   }
 
   .table-row > div:last-child {
-    font-size: 15px;
+    font-size:
+      15px;
+
+    backdrop-filter:
+      blur(18px) !important;
+
+    -webkit-backdrop-filter:
+      blur(18px) !important;
   }
-
-
 
   .commission-decoration {
-    width: 190px;
+    width:
+      180px;
 
-    top: 460px;
-    right: -75px;
+    right:
+      -80px;
 
-    opacity: 0.20;
-  }
+    top:
+      430px;
 
-  .commission-tagline {
-    margin-top: 45px;
-
-    font-size: 20px;
-
-    padding:
-      0 10px;
+    opacity:
+      0.22;
   }
 }
 
@@ -4181,7 +4250,7 @@ left: -10px;
 
   width: 100%;
 
-  min-height: 850px;
+  min-height: 940px;
 
   overflow: hidden;
 
@@ -4192,13 +4261,7 @@ left: -10px;
 }
 
 
-/* =========================================================
-   FAQ CONTAINER
 
-   Figma desktop:
-   Heading left: 150px
-   FAQ left:     730px
-========================================================= */
 
 .faq-container {
   position: relative;
@@ -4206,6 +4269,8 @@ left: -10px;
   z-index: 5;
 
   width: 100%;
+
+  top: 150px;
 
   max-width: 1250px;
 
@@ -4236,9 +4301,9 @@ left: -10px;
 
   
 
-  top: 35px;
+  top: 240px;
 
-  right: -45px;
+  right: -140px;
 
   object-fit: contain;
 
@@ -5018,9 +5083,9 @@ left: -10px;
 
   height: 395px;
 
-  top: -220px;
+  top: -155px;
 
-  right: -180px;
+  right: -260px;
 }
 
 
@@ -5039,9 +5104,9 @@ left: -10px;
 
   height: 400px;
 
-  left: 10px;
+  left: -50px;
 
-  bottom: -155px;
+  bottom: -190px;
   
   z-index: 2;
 }
@@ -5089,7 +5154,7 @@ left: -10px;
     "Google Sans Flex",
     sans-serif;
 
-  font-size: 54px;
+  font-size: 43px;
 
   line-height: 110%;
 
@@ -5120,7 +5185,7 @@ left: -10px;
     "Albert Sans",
     sans-serif;
 
-  font-size: 18px;
+  font-size: 14px;
 
   line-height: 135%;
 
@@ -5141,7 +5206,7 @@ left: -10px;
 
   z-index: 10;
 
-  min-width: 283px;
+  min-width: 263px;
 
   min-height: 63px;
 
@@ -5724,7 +5789,7 @@ left: -10px;
 
   left: 50%;
 
-  bottom: -95px;
+  bottom: -30px;
 
   transform:
     translateX(-50%);
@@ -6376,12 +6441,6 @@ left: -10px;
   }
 }
 
-/* =========================================================
-   FINAL RESPONSIVE PATCH
-   MaziFinance
-   Added after the original CSS so these rules safely override
-   desktop values on smaller screens.
-========================================================= */
 
 html,
 body {
@@ -6448,38 +6507,16 @@ img {
 
 /* =========================================================
    HERO — TABLET
+   768px - 1023px
+
+   Extra top spacing added so the hero heading
+   does not overlap the navbar.
 ========================================================= */
 
 @media (min-width: 768px) and (max-width: 1023px) {
+
   .hero {
     padding: 12px;
-  }
-
-  .hero-content {
-    padding: 70px 35px 45px;
-  }
-
-  .hero-title {
-    font-size: clamp(42px, 6vw, 52px);
-  }
-
-  .hero-description {
-    font-size: 16px;
-    max-width: 580px;
-  }
-
-  .hero-image {
-    width: min(500px, 75vw);
-  }
-}
-
-/* =========================================================
-   HERO — MOBILE
-========================================================= */
-
-@media (max-width: 767px) {
-  .hero {
-    padding: 8px;
   }
 
   .hero-frame {
@@ -6490,31 +6527,154 @@ img {
   .hero-content {
     width: 100%;
     min-height: auto;
-    padding: 55px 20px 35px;
+
+    /*
+     * Increased top padding to create enough
+     * separation from the navbar.
+     */
+    padding: 125px 35px 55px;
   }
 
   .hero-copy {
     position: relative;
+
     top: auto;
     left: auto;
+
     width: 100%;
-    max-width: 620px;
+    max-width: 700px;
+
     margin: 0 auto;
+
     text-align: center;
   }
 
   .hero-title {
     width: 100%;
-    font-size: clamp(34px, 8vw, 42px);
+
+    font-size: clamp(42px, 6vw, 52px);
+
     line-height: 110%;
+
+    letter-spacing: -1.56px;
+  }
+
+  .hero-description {
+    width: 100%;
+    max-width: 580px;
+
+    margin: 24px auto 0;
+
+    font-size: 16px;
+
+    line-height: 135%;
+  }
+
+  .hero-button {
+    margin-top: 26px;
+  }
+
+  .hero-image {
+    position: relative;
+
+    top: auto;
+    left: auto;
+    right: auto;
+
+    width: min(500px, 75vw);
+
+    height: auto;
+
+    aspect-ratio: 558 / 540;
+
+    margin: 50px auto 0;
+  }
+
+  .hero-glow {
+    width: 700px;
+    height: 400px;
+
+    top: 520px;
+
+    left: 50%;
+    right: auto;
+
+    transform: translateX(-50%);
+
+    filter: blur(250px);
+  }
+}
+
+
+/* =========================================================
+   HERO — MOBILE
+   <= 767px
+
+   Increased top spacing so the heading starts
+   clearly below the navbar.
+========================================================= */
+
+@media (max-width: 767px) {
+
+  .hero {
+    padding: 8px;
+  }
+
+  .hero-frame {
+    width: 100%;
+
+    min-height: auto;
+  }
+
+  .hero-content {
+    width: 100%;
+
+    min-height: auto;
+
+    /*
+     * Increased from 55px to 105px.
+     * This creates clear space below the navbar.
+     */
+    padding: 105px 20px 40px;
+  }
+
+  .hero-copy {
+    position: relative;
+
+    top: auto;
+    left: auto;
+
+    width: 100%;
+    max-width: 620px;
+
+    margin: 0 auto;
+
+    text-align: center;
+  }
+
+  .hero-title {
+    width: 100%;
+
+    font-size: clamp(
+      34px,
+      8vw,
+      42px
+    );
+
+    line-height: 110%;
+
     letter-spacing: -1px;
   }
 
   .hero-description {
     width: 100%;
+
     max-width: 560px;
+
     margin: 20px auto 0;
+
     font-size: 14px;
+
     line-height: 140%;
   }
 
@@ -6524,25 +6684,110 @@ img {
 
   .hero-image {
     position: relative;
+
     top: auto;
     left: auto;
     right: auto;
+
     width: min(430px, 100%);
+
     height: auto;
+
     aspect-ratio: 558 / 540;
-    margin: 35px auto 0;
+
+    margin: 40px auto 0;
   }
 
   .hero-glow {
     width: 550px;
+
     height: 320px;
+
     left: 50%;
+
     right: auto;
-    top: 420px;
-    transform: translateX(-50%);
-    filter: blur(180px);
+
+    top: 460px;
+
+    transform:
+      translateX(-50%);
+
+    filter:
+      blur(180px);
   }
 }
+
+
+/* =========================================================
+   SMALL MOBILE
+   <= 480px
+========================================================= */
+
+@media (max-width: 480px) {
+
+  .hero-content {
+    /*
+     * Slightly more compact than tablet,
+     * but still safely below the navbar.
+     */
+    padding: 140px 18px 35px;
+  }
+
+  .hero-title {
+    font-size: clamp(
+      32px,
+      8vw,
+      38px
+    );
+
+    letter-spacing: -1.14px;
+  }
+
+  .hero-description {
+    font-size: 13.5px;
+  }
+
+  .hero-image {
+    width: min(400px, 105%);
+
+    margin-top: 35px;
+  }
+}
+
+
+/* =========================================================
+   VERY SMALL MOBILE
+   <= 380px
+========================================================= */
+
+@media (max-width: 380px) {
+
+  .hero-content {
+    padding: 145px 15px 30px;
+  }
+
+  .hero-title {
+    font-size: 34px;
+
+    letter-spacing: -1.02px;
+  }
+
+  .hero-description {
+    font-size: 13px;
+  }
+
+  .hero-button {
+    min-height: 44px;
+
+    padding: 12px 20px;
+  }
+
+  .hero-image {
+    margin-top: 30px;
+  }
+}
+
+
 
 /* =========================================================
    WHY PARTNER — TABLET
@@ -6577,6 +6822,8 @@ img {
     justify-self: center;
   }
 }
+
+
 
 /* =========================================================
    WHY PARTNER — MOBILE
@@ -6690,7 +6937,7 @@ img {
 
   letter-spacing: -1.8px;
 
-  color: #414141;
+  color: #3f3d3d;
 }
 
 
@@ -6855,21 +7102,11 @@ img {
 
 .table-row > div:first-child {
   background:
-    rgba(
-      247,
-      246,
-      249,
-      0.50
-    );
+    rgba(206, 207, 211, 1);
 
-  border-right:
+  border-bottom:
     1px solid
-    rgba(
-      255,
-      255,
-      255,
-      0.50
-    );
+    rgba(60, 55, 55, 0.684);
 }
 
 
@@ -6879,12 +7116,7 @@ img {
 
 .table-row > div:last-child {
   background:
-    rgba(
-      225,
-      211,
-      239,
-      0.68
-    );
+    rgba(206, 207, 211, 1);
 
   color:
     #4f1b9c;
@@ -6895,10 +7127,10 @@ img {
   
 
   backdrop-filter:
-    blur(4px);
+    blur(60px);
 
   -webkit-backdrop-filter:
-    blur(4px);
+    blur(50px);
 }
 
 
@@ -6941,7 +7173,7 @@ img {
   top: 360px;
   right: 0;
 
-  transform: rotate(-30deg);
+  transform: rotate(-45deg);
 
   object-fit: contain;
 
@@ -7114,11 +7346,11 @@ img {
     top:
       465px;
 
-    right: 150px;
+    right: 35px;
 
-    top: 360px;
+    top: 340px;
 
-    transform: rotate(-10deg);
+    transform: rotate(0deg);
 
     opacity:
       0.58;
@@ -7964,5 +8196,423 @@ img {
 
   .footer-column a {
     font-size: 10.5px;
+  }
+}
+
+
+/* =========================================================
+   RESPONSIVE OVERRIDE — LARGE DESKTOP CHANGES
+   Desktop 1200px+ values above remain unchanged.
+   These rules only adapt the updated large-desktop layout
+   for smaller screens.
+========================================================= */
+
+/* =========================================================
+   LAPTOP — 1024px - 1199px
+========================================================= */
+
+@media (min-width: 1024px) and (max-width: 1199px) {
+
+  /* HEADER */
+  .header,
+  .header-scrolled {
+    width: calc(100% - 40px);
+    max-width: none;
+    left: 50%;
+    right: auto;
+    transform: translateX(-50%);
+  }
+
+  .header-container {
+    width: 100%;
+  }
+
+  /* WHY PARTNER / CARDS */
+  .why-container {
+    width: 100%;
+    max-width: 900px;
+  }
+
+  .partner-cards {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    width: 100%;
+    gap: 18px;
+  }
+
+  .partner-card {
+    width: 100%;
+    min-width: 0;
+    height: 250px;
+  }
+
+  .partner-card:nth-child(1),
+  .partner-card:nth-child(2),
+  .partner-card:nth-child(3) {
+    grid-column: span 2;
+  }
+
+  .partner-card:nth-child(4) {
+    grid-column: 2 / span 2;
+  }
+
+  .partner-card:nth-child(5) {
+    grid-column: 4 / span 2;
+    width: 100%;
+  }
+
+  .card-decoration-1,
+  .card-decoration-5 {
+    width: 155px;
+    height: auto;
+    left: auto;
+    right: 0;
+  }
+
+  .card-decoration-2 {
+    width: 117px;
+    height: auto;
+    left: auto;
+    right: 0;
+  }
+
+  .card-decoration-3 {
+    width: 145px;
+    height: auto;
+    left: auto;
+    right: 0;
+  }
+
+  .card-decoration-4 {
+    width: 100px;
+    height: auto;
+    left: auto;
+    right: 0;
+  }
+
+  /* COMMISSION */
+  .commission-container {
+    width: 100%;
+    max-width: 850px;
+  }
+
+  .commission-table {
+    width: 100%;
+    max-width: 760px;
+  }
+
+  .commission-decoration {
+    width: 300px;
+    max-width: none;
+    right: -45px;
+    top: 350px;
+  }
+}
+
+
+/* =========================================================
+   TABLET — 768px - 1023px
+========================================================= */
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+  /* HEADER */
+  .header,
+  .header-scrolled {
+    width: calc(100% - 28px);
+    max-width: none;
+    left: 50%;
+    right: auto;
+    transform: translateX(-50%);
+  }
+
+  .header-container {
+    width: 100%;
+    min-height: 64px;
+  }
+
+  /* HERO */
+  .hero-frame,
+  .hero-content {
+    width: 100%;
+  }
+
+  /* WHY PARTNER */
+  .why-container {
+    width: 100%;
+    max-width: 760px;
+  }
+
+  .partner-cards {
+    width: 100%;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 18px;
+  }
+
+  .partner-card {
+    width: 100%;
+    min-width: 0;
+    height: 250px;
+  }
+
+  .partner-card:nth-child(1),
+  .partner-card:nth-child(2),
+  .partner-card:nth-child(3),
+  .partner-card:nth-child(4),
+  .partner-card:nth-child(5) {
+    grid-column: auto;
+  }
+
+  .partner-card:nth-child(5) {
+    grid-column: 1 / -1;
+    width: calc(50% - 9px);
+    justify-self: center;
+  }
+
+  .card-decoration-1,
+  .card-decoration-5 {
+    width: 145px;
+    height: auto;
+    right: 0;
+    left: auto;
+  }
+
+  .card-decoration-2 {
+    width: 110px;
+    height: auto;
+    right: 0;
+    left: auto;
+  }
+
+  .card-decoration-3 {
+    width: 135px;
+    height: auto;
+    right: 0;
+    left: auto;
+  }
+
+  .card-decoration-4 {
+    width: 95px;
+    height: auto;
+    right: 0;
+    left: auto;
+  }
+
+  /* COMMISSION */
+  .commission-container {
+    width: 100%;
+    max-width: 760px;
+  }
+
+  .commission-table {
+    width: 100%;
+    max-width: 760px;
+  }
+
+  .table-row > div {
+    min-width: 0;
+    padding: 14px 25px;
+  }
+
+  .commission-decoration {
+    width: 220px;
+    right: -65px;
+    top: 430px;
+  }
+}
+
+
+/* =========================================================
+   MOBILE — 481px - 767px
+========================================================= */
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+  /* HEADER */
+  .header,
+  .header-scrolled {
+    width: calc(100% - 20px);
+    max-width: none;
+    left: 50%;
+    right: auto;
+    transform: translateX(-50%);
+  }
+
+  /* WHY PARTNER */
+  .partner-cards {
+    width: 100%;
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .partner-card,
+  .partner-card:nth-child(5) {
+    width: 100%;
+    height: 240px;
+    grid-column: auto;
+  }
+
+  /* COMMISSION */
+  .commission-container {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .commission-table {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .table-row > div {
+    min-width: 0;
+    padding: 11px 16px;
+    font-size: 14px;
+  }
+
+  .commission-decoration {
+    width: 180px;
+    right: -80px;
+    top: 430px;
+  }
+}
+
+
+/* =========================================================
+   SMALL MOBILE — 381px - 480px
+========================================================= */
+
+@media (min-width: 381px) and (max-width: 480px) {
+
+  /* HEADER */
+  .header,
+  .header-scrolled {
+    width: calc(100% - 16px);
+    max-width: none;
+    left: 50%;
+    right: auto;
+    transform: translateX(-50%);
+  }
+
+  /* WHY PARTNER */
+  .partner-cards {
+    width: 100%;
+    grid-template-columns: 1fr;
+  }
+
+  .partner-card,
+  .partner-card:nth-child(5) {
+    width: 100%;
+    height: 225px;
+    grid-column: auto;
+  }
+
+  /* COMMISSION */
+  .commission-container {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .commission-table {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .table-row > div {
+    min-width: 0;
+    padding: 10px 12px;
+    font-size: 13px;
+  }
+
+  .commission-decoration {
+    width: 165px;
+    right: -75px;
+    top: 405px;
+  }
+}
+
+
+/* =========================================================
+   VERY SMALL MOBILE — <= 380px
+========================================================= */
+
+@media (max-width: 380px) {
+
+  /* HEADER */
+  .header,
+  .header-scrolled {
+    width: calc(100% - 14px);
+    max-width: none;
+    left: 50%;
+    right: auto;
+    transform: translateX(-50%);
+  }
+
+  /* WHY PARTNER */
+  .partner-cards {
+    width: 100%;
+    grid-template-columns: 1fr;
+  }
+
+  .partner-card,
+  .partner-card:nth-child(5) {
+    width: 100%;
+    height: auto;
+    min-height: 215px;
+    grid-column: auto;
+  }
+
+  .card-decoration-1,
+  .card-decoration-5 {
+    width: 118px;
+    height: auto;
+    right: 0;
+    left: auto;
+  }
+
+  .card-decoration-2 {
+    width: 92px;
+    height: auto;
+    right: 0;
+    left: auto;
+  }
+
+  .card-decoration-3 {
+    width: 110px;
+    height: auto;
+    right: 0;
+    left: auto;
+  }
+
+  .card-decoration-4 {
+    width: 82px;
+    height: auto;
+    right: 0;
+    left: auto;
+  }
+
+  /* COMMISSION */
+  .commission-container {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .commission-table {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .table-row > div {
+    min-width: 0;
+    padding: 9px 10px;
+    font-size: 12.5px;
+  }
+
+  .table-row > div:last-child {
+    font-size: 13px;
+  }
+
+  .commission-decoration {
+    width: 145px;
+    right: -70px;
+    top: 390px;
   }
 }

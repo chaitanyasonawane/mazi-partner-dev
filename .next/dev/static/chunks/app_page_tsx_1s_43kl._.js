@@ -319,6 +319,13 @@ function PartnerPage() {
                             fileName: "[project]/app/page.tsx",
                             lineNumber: 200,
                             columnNumber: 5
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "hero-glass-blur"
+                        }, void 0, false, {
+                            fileName: "[project]/app/page.tsx",
+                            lineNumber: 236,
+                            columnNumber: 5
                         }, this)
                     ]
                 }, void 0, true, {
@@ -342,7 +349,7 @@ function PartnerPage() {
                         "aria-hidden": "true"
                     }, void 0, false, {
                         fileName: "[project]/app/page.tsx",
-                        lineNumber: 244,
+                        lineNumber: 248,
                         columnNumber: 3
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
@@ -352,7 +359,7 @@ function PartnerPage() {
                         "aria-hidden": "true"
                     }, void 0, false, {
                         fileName: "[project]/app/page.tsx",
-                        lineNumber: 252,
+                        lineNumber: 256,
                         columnNumber: 3
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -369,31 +376,31 @@ function PartnerPage() {
                                                 children: "MaziFinance?"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
-                                                lineNumber: 267,
+                                                lineNumber: 271,
                                                 columnNumber: 9
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/page.tsx",
-                                        lineNumber: 265,
+                                        lineNumber: 269,
                                         columnNumber: 7
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                         fileName: "[project]/app/page.tsx",
-                                        lineNumber: 270,
+                                        lineNumber: 274,
                                         columnNumber: 5
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         children: "We provide the tools, transparency, and industry-leading payouts you need to scale your affiliate business to new heights."
                                     }, void 0, false, {
                                         fileName: "[project]/app/page.tsx",
-                                        lineNumber: 272,
+                                        lineNumber: 276,
                                         columnNumber: 9
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/page.tsx",
-                                lineNumber: 263,
+                                lineNumber: 267,
                                 columnNumber: 5
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -410,22 +417,22 @@ function PartnerPage() {
                                                     "aria-hidden": "true"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/page.tsx",
-                                                    lineNumber: 291,
+                                                    lineNumber: 295,
                                                     columnNumber: 7
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
-                                                lineNumber: 290,
+                                                lineNumber: 294,
                                                 columnNumber: 5
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                                src: "/images/card1.png",
+                                                src: "/images/card5.png",
                                                 alt: "",
                                                 className: "card-decoration card-decoration-1",
                                                 "aria-hidden": "true"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
-                                                lineNumber: 298,
+                                                lineNumber: 302,
                                                 columnNumber: 5
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -435,26 +442,26 @@ function PartnerPage() {
                                                         children: "$50/Lot Commissions"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/page.tsx",
-                                                        lineNumber: 306,
+                                                        lineNumber: 310,
                                                         columnNumber: 7
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                         children: "Smart partnerships start here. Get up to $50/lot commissions with MaziFinance."
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/page.tsx",
-                                                        lineNumber: 307,
+                                                        lineNumber: 311,
                                                         columnNumber: 7
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/page.tsx",
-                                                lineNumber: 305,
+                                                lineNumber: 309,
                                                 columnNumber: 5
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/page.tsx",
-                                        lineNumber: 288,
+                                        lineNumber: 292,
                                         columnNumber: 3
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("article", {
@@ -468,12 +475,12 @@ function PartnerPage() {
                                                     "aria-hidden": "true"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/page.tsx",
-                                                    lineNumber: 320,
+                                                    lineNumber: 324,
                                                     columnNumber: 7
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
-                                                lineNumber: 319,
+                                                lineNumber: 323,
                                                 columnNumber: 5
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
@@ -483,7 +490,7 @@ function PartnerPage() {
                                                 "aria-hidden": "true"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
-                                                lineNumber: 327,
+                                                lineNumber: 331,
                                                 columnNumber: 5
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -493,26 +500,26 @@ function PartnerPage() {
                                                         children: "Instant Daily Payouts"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/page.tsx",
-                                                        lineNumber: 335,
+                                                        lineNumber: 339,
                                                         columnNumber: 7
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                         children: "Smart partnerships start here. Get up to $50/lot commissions with MaziFinance."
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/page.tsx",
-                                                        lineNumber: 336,
+                                                        lineNumber: 340,
                                                         columnNumber: 7
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/page.tsx",
-                                                lineNumber: 334,
+                                                lineNumber: 338,
                                                 columnNumber: 5
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/page.tsx",
-                                        lineNumber: 317,
+                                        lineNumber: 321,
                                         columnNumber: 3
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("article", {
@@ -526,12 +533,12 @@ function PartnerPage() {
                                                     "aria-hidden": "true"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/page.tsx",
-                                                    lineNumber: 349,
+                                                    lineNumber: 353,
                                                     columnNumber: 7
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
-                                                lineNumber: 348,
+                                                lineNumber: 352,
                                                 columnNumber: 5
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
@@ -541,7 +548,7 @@ function PartnerPage() {
                                                 "aria-hidden": "true"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
-                                                lineNumber: 356,
+                                                lineNumber: 360,
                                                 columnNumber: 5
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -551,26 +558,26 @@ function PartnerPage() {
                                                         children: "Real-Time Tracking"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/page.tsx",
-                                                        lineNumber: 364,
+                                                        lineNumber: 368,
                                                         columnNumber: 7
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                         children: "Smart partnerships start here. Get up to $50/lot commissions with MaziFinance."
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/page.tsx",
-                                                        lineNumber: 365,
+                                                        lineNumber: 369,
                                                         columnNumber: 7
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/page.tsx",
-                                                lineNumber: 363,
+                                                lineNumber: 367,
                                                 columnNumber: 5
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/page.tsx",
-                                        lineNumber: 346,
+                                        lineNumber: 350,
                                         columnNumber: 3
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("article", {
@@ -584,12 +591,12 @@ function PartnerPage() {
                                                     "aria-hidden": "true"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/page.tsx",
-                                                    lineNumber: 378,
+                                                    lineNumber: 382,
                                                     columnNumber: 7
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
-                                                lineNumber: 377,
+                                                lineNumber: 381,
                                                 columnNumber: 5
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
@@ -599,7 +606,7 @@ function PartnerPage() {
                                                 "aria-hidden": "true"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
-                                                lineNumber: 385,
+                                                lineNumber: 389,
                                                 columnNumber: 5
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -609,26 +616,26 @@ function PartnerPage() {
                                                         children: "Dedicated Manager"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/page.tsx",
-                                                        lineNumber: 393,
+                                                        lineNumber: 397,
                                                         columnNumber: 7
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                         children: "Smart partnerships start here. Get up to $50/lot commissions with MaziFinance."
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/page.tsx",
-                                                        lineNumber: 394,
+                                                        lineNumber: 398,
                                                         columnNumber: 7
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/page.tsx",
-                                                lineNumber: 392,
+                                                lineNumber: 396,
                                                 columnNumber: 5
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/page.tsx",
-                                        lineNumber: 375,
+                                        lineNumber: 379,
                                         columnNumber: 3
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("article", {
@@ -642,12 +649,12 @@ function PartnerPage() {
                                                     "aria-hidden": "true"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/page.tsx",
-                                                    lineNumber: 407,
+                                                    lineNumber: 411,
                                                     columnNumber: 7
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
-                                                lineNumber: 406,
+                                                lineNumber: 410,
                                                 columnNumber: 5
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
@@ -657,7 +664,7 @@ function PartnerPage() {
                                                 "aria-hidden": "true"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
-                                                lineNumber: 414,
+                                                lineNumber: 418,
                                                 columnNumber: 5
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -667,44 +674,44 @@ function PartnerPage() {
                                                         children: "$50/Lot Commissions"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/page.tsx",
-                                                        lineNumber: 422,
+                                                        lineNumber: 426,
                                                         columnNumber: 7
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                         children: "Smart partnerships start here. Get up to $50/lot commissions with MaziFinance."
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/page.tsx",
-                                                        lineNumber: 423,
+                                                        lineNumber: 427,
                                                         columnNumber: 7
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/page.tsx",
-                                                lineNumber: 421,
+                                                lineNumber: 425,
                                                 columnNumber: 5
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/page.tsx",
-                                        lineNumber: 404,
+                                        lineNumber: 408,
                                         columnNumber: 3
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/page.tsx",
-                                lineNumber: 285,
+                                lineNumber: 289,
                                 columnNumber: 1
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/page.tsx",
-                        lineNumber: 259,
+                        lineNumber: 263,
                         columnNumber: 3
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/page.tsx",
-                lineNumber: 241,
+                lineNumber: 245,
                 columnNumber: 1
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -718,7 +725,7 @@ function PartnerPage() {
                         "aria-hidden": "true"
                     }, void 0, false, {
                         fileName: "[project]/app/page.tsx",
-                        lineNumber: 446,
+                        lineNumber: 449,
                         columnNumber: 3
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -732,13 +739,13 @@ function PartnerPage() {
                                         children: " Affiliate Commissions"
                                     }, void 0, false, {
                                         fileName: "[project]/app/page.tsx",
-                                        lineNumber: 457,
+                                        lineNumber: 461,
                                         columnNumber: 7
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/page.tsx",
-                                lineNumber: 455,
+                                lineNumber: 459,
                                 columnNumber: 5
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -746,12 +753,20 @@ function PartnerPage() {
                                 children: "Eight integrated AI models working together for analysis, strategy, backtesting, simulation, auditing, journaling, news, and risk."
                             }, void 0, false, {
                                 fileName: "[project]/app/page.tsx",
-                                lineNumber: 460,
+                                lineNumber: 465,
                                 columnNumber: 5
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "commission-table",
                                 children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "commission-table-border",
+                                        "aria-hidden": "true"
+                                    }, void 0, false, {
+                                        fileName: "[project]/app/page.tsx",
+                                        lineNumber: 473,
+                                        columnNumber: 3
+                                    }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "table-row",
                                         children: [
@@ -759,21 +774,21 @@ function PartnerPage() {
                                                 children: "Forex"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
-                                                lineNumber: 471,
-                                                columnNumber: 9
+                                                lineNumber: 479,
+                                                columnNumber: 5
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 children: "$50/Lot"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
-                                                lineNumber: 472,
-                                                columnNumber: 9
+                                                lineNumber: 480,
+                                                columnNumber: 5
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/page.tsx",
-                                        lineNumber: 470,
-                                        columnNumber: 7
+                                        lineNumber: 478,
+                                        columnNumber: 3
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "table-row",
@@ -782,57 +797,11 @@ function PartnerPage() {
                                                 children: "Indices"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
-                                                lineNumber: 476,
-                                                columnNumber: 9
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                children: "$45/Lot"
-                                            }, void 0, false, {
-                                                fileName: "[project]/app/page.tsx",
-                                                lineNumber: 477,
-                                                columnNumber: 9
-                                            }, this)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/app/page.tsx",
-                                        lineNumber: 475,
-                                        columnNumber: 7
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "table-row",
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                children: "Energy"
-                                            }, void 0, false, {
-                                                fileName: "[project]/app/page.tsx",
-                                                lineNumber: 481,
-                                                columnNumber: 9
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                children: "$50/Lot"
-                                            }, void 0, false, {
-                                                fileName: "[project]/app/page.tsx",
-                                                lineNumber: 482,
-                                                columnNumber: 9
-                                            }, this)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/app/page.tsx",
-                                        lineNumber: 480,
-                                        columnNumber: 7
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "table-row",
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                children: "Metals"
-                                            }, void 0, false, {
-                                                fileName: "[project]/app/page.tsx",
                                                 lineNumber: 486,
                                                 columnNumber: 9
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                children: "$50/Lot"
+                                                children: "$45/Lot"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
                                                 lineNumber: 487,
@@ -848,23 +817,69 @@ function PartnerPage() {
                                         className: "table-row",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                children: "Energy"
+                                            }, void 0, false, {
+                                                fileName: "[project]/app/page.tsx",
+                                                lineNumber: 493,
+                                                columnNumber: 9
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                children: "$50/Lot"
+                                            }, void 0, false, {
+                                                fileName: "[project]/app/page.tsx",
+                                                lineNumber: 494,
+                                                columnNumber: 9
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/app/page.tsx",
+                                        lineNumber: 492,
+                                        columnNumber: 7
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "table-row",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                children: "Metals"
+                                            }, void 0, false, {
+                                                fileName: "[project]/app/page.tsx",
+                                                lineNumber: 500,
+                                                columnNumber: 9
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                children: "$50/Lot"
+                                            }, void 0, false, {
+                                                fileName: "[project]/app/page.tsx",
+                                                lineNumber: 501,
+                                                columnNumber: 9
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/app/page.tsx",
+                                        lineNumber: 499,
+                                        columnNumber: 7
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "table-row",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 children: "Shares"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
-                                                lineNumber: 491,
+                                                lineNumber: 507,
                                                 columnNumber: 9
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 children: "$40/Lot"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
-                                                lineNumber: 492,
+                                                lineNumber: 508,
                                                 columnNumber: 9
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/page.tsx",
-                                        lineNumber: 490,
+                                        lineNumber: 506,
                                         columnNumber: 7
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -874,20 +889,20 @@ function PartnerPage() {
                                                 children: "Crypto"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
-                                                lineNumber: 496,
+                                                lineNumber: 514,
                                                 columnNumber: 9
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 children: "$50/Lot"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
-                                                lineNumber: 497,
+                                                lineNumber: 515,
                                                 columnNumber: 9
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/page.tsx",
-                                        lineNumber: 495,
+                                        lineNumber: 513,
                                         columnNumber: 7
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -897,26 +912,26 @@ function PartnerPage() {
                                                 children: "Commodities"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
-                                                lineNumber: 501,
+                                                lineNumber: 521,
                                                 columnNumber: 9
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 children: "$50/Lot"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
-                                                lineNumber: 502,
+                                                lineNumber: 522,
                                                 columnNumber: 9
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/page.tsx",
-                                        lineNumber: 500,
+                                        lineNumber: 520,
                                         columnNumber: 7
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/page.tsx",
-                                lineNumber: 466,
+                                lineNumber: 471,
                                 columnNumber: 5
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -926,43 +941,45 @@ function PartnerPage() {
                                         children: "One platform."
                                     }, void 0, false, {
                                         fileName: "[project]/app/page.tsx",
-                                        lineNumber: 509,
+                                        lineNumber: 530,
                                         columnNumber: 7
                                     }, this),
                                     "Multiple markets. Serious commissions."
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/page.tsx",
-                                lineNumber: 508,
+                                lineNumber: 529,
                                 columnNumber: 5
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/page.tsx",
-                        lineNumber: 453,
+                        lineNumber: 456,
                         columnNumber: 3
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/page.tsx",
-                lineNumber: 443,
+                lineNumber: 446,
                 columnNumber: 1
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
                 className: "start-trading-section",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "trading-glow trading-glow-left"
+                        className: "trading-glow trading-glow-left",
+                        "aria-hidden": "true"
                     }, void 0, false, {
                         fileName: "[project]/app/page.tsx",
-                        lineNumber: 523,
+                        lineNumber: 544,
                         columnNumber: 3
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "trading-glow trading-glow-right"
+                        className: "trading-glow trading-glow-right",
+                        "aria-hidden": "true"
                     }, void 0, false, {
                         fileName: "[project]/app/page.tsx",
-                        lineNumber: 524,
+                        lineNumber: 549,
                         columnNumber: 3
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -978,18 +995,18 @@ function PartnerPage() {
                                             children: "MaziFinance"
                                         }, void 0, false, {
                                             fileName: "[project]/app/page.tsx",
-                                            lineNumber: 531,
+                                            lineNumber: 562,
                                             columnNumber: 9
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/page.tsx",
-                                    lineNumber: 529,
+                                    lineNumber: 560,
                                     columnNumber: 7
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/page.tsx",
-                                lineNumber: 528,
+                                lineNumber: 558,
                                 columnNumber: 5
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1003,14 +1020,14 @@ function PartnerPage() {
                                                 children: "1"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
-                                                lineNumber: 538,
+                                                lineNumber: 575,
                                                 columnNumber: 9
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                                 children: "Share Link"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
-                                                lineNumber: 540,
+                                                lineNumber: 579,
                                                 columnNumber: 9
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1018,26 +1035,26 @@ function PartnerPage() {
                                                     "Share your unique referral",
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                         fileName: "[project]/app/page.tsx",
-                                                        lineNumber: 544,
+                                                        lineNumber: 585,
                                                         columnNumber: 11
                                                     }, this),
                                                     "link via social media, email,",
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                         fileName: "[project]/app/page.tsx",
-                                                        lineNumber: 546,
+                                                        lineNumber: 587,
                                                         columnNumber: 11
                                                     }, this),
                                                     "or your website"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/page.tsx",
-                                                lineNumber: 542,
+                                                lineNumber: 583,
                                                 columnNumber: 9
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/page.tsx",
-                                        lineNumber: 537,
+                                        lineNumber: 573,
                                         columnNumber: 7
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1048,14 +1065,14 @@ function PartnerPage() {
                                                 children: "2"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
-                                                lineNumber: 553,
+                                                lineNumber: 597,
                                                 columnNumber: 9
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                                 children: "User Clicks"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
-                                                lineNumber: 555,
+                                                lineNumber: 601,
                                                 columnNumber: 9
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1063,26 +1080,26 @@ function PartnerPage() {
                                                     "Potential client clicks your",
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                         fileName: "[project]/app/page.tsx",
-                                                        lineNumber: 559,
+                                                        lineNumber: 607,
                                                         columnNumber: 11
                                                     }, this),
                                                     "link and visits MaziFinance",
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                         fileName: "[project]/app/page.tsx",
-                                                        lineNumber: 561,
+                                                        lineNumber: 609,
                                                         columnNumber: 11
                                                     }, this),
                                                     "platform"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/page.tsx",
-                                                lineNumber: 557,
+                                                lineNumber: 605,
                                                 columnNumber: 9
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/page.tsx",
-                                        lineNumber: 552,
+                                        lineNumber: 595,
                                         columnNumber: 7
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1093,14 +1110,14 @@ function PartnerPage() {
                                                 children: "3"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
-                                                lineNumber: 568,
+                                                lineNumber: 619,
                                                 columnNumber: 9
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                                 children: "Signs Up"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
-                                                lineNumber: 570,
+                                                lineNumber: 623,
                                                 columnNumber: 9
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1108,26 +1125,26 @@ function PartnerPage() {
                                                     "User creates account and",
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                         fileName: "[project]/app/page.tsx",
-                                                        lineNumber: 574,
+                                                        lineNumber: 629,
                                                         columnNumber: 11
                                                     }, this),
                                                     "completes verification",
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                         fileName: "[project]/app/page.tsx",
-                                                        lineNumber: 576,
+                                                        lineNumber: 631,
                                                         columnNumber: 11
                                                     }, this),
                                                     "process"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/page.tsx",
-                                                lineNumber: 572,
+                                                lineNumber: 627,
                                                 columnNumber: 9
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/page.tsx",
-                                        lineNumber: 567,
+                                        lineNumber: 617,
                                         columnNumber: 7
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1138,14 +1155,14 @@ function PartnerPage() {
                                                 children: "4"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
-                                                lineNumber: 583,
+                                                lineNumber: 641,
                                                 columnNumber: 9
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                                 children: "Start Trading"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
-                                                lineNumber: 585,
+                                                lineNumber: 645,
                                                 columnNumber: 9
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1153,26 +1170,26 @@ function PartnerPage() {
                                                     "Client deposits funds and",
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                         fileName: "[project]/app/page.tsx",
-                                                        lineNumber: 589,
+                                                        lineNumber: 651,
                                                         columnNumber: 11
                                                     }, this),
                                                     "begins trading on our",
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                         fileName: "[project]/app/page.tsx",
-                                                        lineNumber: 591,
+                                                        lineNumber: 653,
                                                         columnNumber: 11
                                                     }, this),
                                                     "platform"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/page.tsx",
-                                                lineNumber: 587,
+                                                lineNumber: 649,
                                                 columnNumber: 9
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/page.tsx",
-                                        lineNumber: 582,
+                                        lineNumber: 639,
                                         columnNumber: 7
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1183,14 +1200,14 @@ function PartnerPage() {
                                                 children: "5"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
-                                                lineNumber: 598,
+                                                lineNumber: 663,
                                                 columnNumber: 9
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                                 children: "Earn Commission"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
-                                                lineNumber: 600,
+                                                lineNumber: 667,
                                                 columnNumber: 9
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1198,44 +1215,44 @@ function PartnerPage() {
                                                     "You receive instant",
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                         fileName: "[project]/app/page.tsx",
-                                                        lineNumber: 604,
+                                                        lineNumber: 673,
                                                         columnNumber: 11
                                                     }, this),
                                                     "commission on every lot",
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                         fileName: "[project]/app/page.tsx",
-                                                        lineNumber: 606,
+                                                        lineNumber: 675,
                                                         columnNumber: 11
                                                     }, this),
                                                     "traded by your referral"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/page.tsx",
-                                                lineNumber: 602,
+                                                lineNumber: 671,
                                                 columnNumber: 9
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/page.tsx",
-                                        lineNumber: 597,
+                                        lineNumber: 661,
                                         columnNumber: 7
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/page.tsx",
-                                lineNumber: 535,
+                                lineNumber: 569,
                                 columnNumber: 5
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/page.tsx",
-                        lineNumber: 526,
+                        lineNumber: 555,
                         columnNumber: 3
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/page.tsx",
-                lineNumber: 520,
+                lineNumber: 541,
                 columnNumber: 1
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1249,7 +1266,7 @@ function PartnerPage() {
                         "aria-hidden": "true"
                     }, void 0, false, {
                         fileName: "[project]/app/page.tsx",
-                        lineNumber: 622,
+                        lineNumber: 693,
                         columnNumber: 3
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1265,26 +1282,26 @@ function PartnerPage() {
                                                 children: " Questions"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
-                                                lineNumber: 637,
+                                                lineNumber: 708,
                                                 columnNumber: 9
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/page.tsx",
-                                        lineNumber: 635,
+                                        lineNumber: 706,
                                         columnNumber: 7
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         children: "Eight integrated AI models working together for analysis, strategy, backtesting, simulation, auditing, journaling, news, and risk."
                                     }, void 0, false, {
                                         fileName: "[project]/app/page.tsx",
-                                        lineNumber: 640,
+                                        lineNumber: 711,
                                         columnNumber: 7
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/page.tsx",
-                                lineNumber: 633,
+                                lineNumber: 704,
                                 columnNumber: 5
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1318,20 +1335,20 @@ function PartnerPage() {
                                                         children: item.q
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/page.tsx",
-                                                        lineNumber: 691,
+                                                        lineNumber: 762,
                                                         columnNumber: 13
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
                                                         children: openFaq === index ? "×" : "+"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/page.tsx",
-                                                        lineNumber: 695,
+                                                        lineNumber: 766,
                                                         columnNumber: 13
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/page.tsx",
-                                                lineNumber: 679,
+                                                lineNumber: 750,
                                                 columnNumber: 11
                                             }, this),
                                             openFaq === index && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1340,35 +1357,35 @@ function PartnerPage() {
                                                     children: item.a
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/page.tsx",
-                                                    lineNumber: 707,
+                                                    lineNumber: 778,
                                                     columnNumber: 15
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
-                                                lineNumber: 706,
+                                                lineNumber: 777,
                                                 columnNumber: 13
                                             }, this)
                                         ]
                                     }, index, true, {
                                         fileName: "[project]/app/page.tsx",
-                                        lineNumber: 672,
+                                        lineNumber: 743,
                                         columnNumber: 9
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/app/page.tsx",
-                                lineNumber: 651,
+                                lineNumber: 722,
                                 columnNumber: 5
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/page.tsx",
-                        lineNumber: 629,
+                        lineNumber: 700,
                         columnNumber: 3
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/page.tsx",
-                lineNumber: 619,
+                lineNumber: 690,
                 columnNumber: 1
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1381,7 +1398,7 @@ function PartnerPage() {
                             "aria-hidden": "true"
                         }, void 0, false, {
                             fileName: "[project]/app/page.tsx",
-                            lineNumber: 732,
+                            lineNumber: 803,
                             columnNumber: 5
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1389,7 +1406,7 @@ function PartnerPage() {
                             "aria-hidden": "true"
                         }, void 0, false, {
                             fileName: "[project]/app/page.tsx",
-                            lineNumber: 737,
+                            lineNumber: 808,
                             columnNumber: 5
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
@@ -1399,7 +1416,7 @@ function PartnerPage() {
                             "aria-hidden": "true"
                         }, void 0, false, {
                             fileName: "[project]/app/page.tsx",
-                            lineNumber: 745,
+                            lineNumber: 816,
                             columnNumber: 5
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
@@ -1409,7 +1426,7 @@ function PartnerPage() {
                             "aria-hidden": "true"
                         }, void 0, false, {
                             fileName: "[project]/app/page.tsx",
-                            lineNumber: 752,
+                            lineNumber: 823,
                             columnNumber: 5
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1422,20 +1439,20 @@ function PartnerPage() {
                                             children: " Start with AI"
                                         }, void 0, false, {
                                             fileName: "[project]/app/page.tsx",
-                                            lineNumber: 766,
+                                            lineNumber: 837,
                                             columnNumber: 9
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/page.tsx",
-                                    lineNumber: 764,
+                                    lineNumber: 835,
                                     columnNumber: 7
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     children: "The future of trading isn't predicting the market alone — it's partnering with intelligent AI while trading through one of the fastest-growing zero-spread brokers."
                                 }, void 0, false, {
                                     fileName: "[project]/app/page.tsx",
-                                    lineNumber: 769,
+                                    lineNumber: 840,
                                     columnNumber: 7
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1443,24 +1460,24 @@ function PartnerPage() {
                                     children: "Start Trading with AI"
                                 }, void 0, false, {
                                     fileName: "[project]/app/page.tsx",
-                                    lineNumber: 776,
+                                    lineNumber: 847,
                                     columnNumber: 7
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/page.tsx",
-                            lineNumber: 762,
+                            lineNumber: 833,
                             columnNumber: 5
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/page.tsx",
-                    lineNumber: 728,
+                    lineNumber: 799,
                     columnNumber: 3
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/page.tsx",
-                lineNumber: 726,
+                lineNumber: 797,
                 columnNumber: 1
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
@@ -1472,17 +1489,17 @@ function PartnerPage() {
                         "aria-hidden": "true"
                     }, void 0, false, {
                         fileName: "[project]/app/page.tsx",
-                        lineNumber: 793,
+                        lineNumber: 864,
                         columnNumber: 3
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                        src: "/images/partner-logo.png",
+                        src: "/images/partner-logo-footer.png",
                         alt: "",
                         className: "footer-vector",
                         "aria-hidden": "true"
                     }, void 0, false, {
                         fileName: "[project]/app/page.tsx",
-                        lineNumber: 801,
+                        lineNumber: 872,
                         columnNumber: 3
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1502,19 +1519,19 @@ function PartnerPage() {
                                                     alt: "MaziFinance"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/page.tsx",
-                                                    lineNumber: 825,
+                                                    lineNumber: 896,
                                                     columnNumber: 11
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
-                                                lineNumber: 820,
+                                                lineNumber: 891,
                                                 columnNumber: 9
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                 children: "MaziFinance Markets is a globally recognized institutional liquidity partner and Forex & CFD broker."
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
-                                                lineNumber: 833,
+                                                lineNumber: 904,
                                                 columnNumber: 9
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1526,7 +1543,7 @@ function PartnerPage() {
                                                         children: "𝕏"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/page.tsx",
-                                                        lineNumber: 842,
+                                                        lineNumber: 913,
                                                         columnNumber: 11
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1535,7 +1552,7 @@ function PartnerPage() {
                                                         children: "in"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/page.tsx",
-                                                        lineNumber: 846,
+                                                        lineNumber: 917,
                                                         columnNumber: 11
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1544,19 +1561,19 @@ function PartnerPage() {
                                                         children: "▶"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/page.tsx",
-                                                        lineNumber: 850,
+                                                        lineNumber: 921,
                                                         columnNumber: 11
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/page.tsx",
-                                                lineNumber: 840,
+                                                lineNumber: 911,
                                                 columnNumber: 9
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/page.tsx",
-                                        lineNumber: 818,
+                                        lineNumber: 889,
                                         columnNumber: 7
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1566,7 +1583,7 @@ function PartnerPage() {
                                                 children: "Platforms"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
-                                                lineNumber: 863,
+                                                lineNumber: 934,
                                                 columnNumber: 9
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1574,7 +1591,7 @@ function PartnerPage() {
                                                 children: "MetaTrader 5"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
-                                                lineNumber: 867,
+                                                lineNumber: 938,
                                                 columnNumber: 9
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1582,7 +1599,7 @@ function PartnerPage() {
                                                 children: "TradeLocker Web"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
-                                                lineNumber: 871,
+                                                lineNumber: 942,
                                                 columnNumber: 9
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1590,7 +1607,7 @@ function PartnerPage() {
                                                 children: "iOS App Companion"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
-                                                lineNumber: 875,
+                                                lineNumber: 946,
                                                 columnNumber: 9
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1598,7 +1615,7 @@ function PartnerPage() {
                                                 children: "Android APK"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
-                                                lineNumber: 879,
+                                                lineNumber: 950,
                                                 columnNumber: 9
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1606,13 +1623,13 @@ function PartnerPage() {
                                                 children: "Webtrader Login"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
-                                                lineNumber: 883,
+                                                lineNumber: 954,
                                                 columnNumber: 9
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/page.tsx",
-                                        lineNumber: 861,
+                                        lineNumber: 932,
                                         columnNumber: 7
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1622,7 +1639,7 @@ function PartnerPage() {
                                                 children: "Accounts"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
-                                                lineNumber: 894,
+                                                lineNumber: 965,
                                                 columnNumber: 9
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1630,7 +1647,7 @@ function PartnerPage() {
                                                 children: "MaziFinance Start Account"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
-                                                lineNumber: 898,
+                                                lineNumber: 969,
                                                 columnNumber: 9
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1638,7 +1655,7 @@ function PartnerPage() {
                                                 children: "MaziFinance Prime Account"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
-                                                lineNumber: 902,
+                                                lineNumber: 973,
                                                 columnNumber: 9
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1646,7 +1663,7 @@ function PartnerPage() {
                                                 children: "MaziFinance Elite Account"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
-                                                lineNumber: 906,
+                                                lineNumber: 977,
                                                 columnNumber: 9
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1654,7 +1671,7 @@ function PartnerPage() {
                                                 children: "Demo Simulator"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
-                                                lineNumber: 910,
+                                                lineNumber: 981,
                                                 columnNumber: 9
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1662,13 +1679,13 @@ function PartnerPage() {
                                                 children: "Base Conversions"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
-                                                lineNumber: 914,
+                                                lineNumber: 985,
                                                 columnNumber: 9
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/page.tsx",
-                                        lineNumber: 892,
+                                        lineNumber: 963,
                                         columnNumber: 7
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1678,7 +1695,7 @@ function PartnerPage() {
                                                 children: "Research"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
-                                                lineNumber: 925,
+                                                lineNumber: 996,
                                                 columnNumber: 9
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1686,7 +1703,7 @@ function PartnerPage() {
                                                 children: "Daily Market Reports"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
-                                                lineNumber: 929,
+                                                lineNumber: 1000,
                                                 columnNumber: 9
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1694,7 +1711,7 @@ function PartnerPage() {
                                                 children: "Technical Setup Blogs"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
-                                                lineNumber: 933,
+                                                lineNumber: 1004,
                                                 columnNumber: 9
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1702,7 +1719,7 @@ function PartnerPage() {
                                                 children: "Volatility Indexes"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
-                                                lineNumber: 937,
+                                                lineNumber: 1008,
                                                 columnNumber: 9
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1710,7 +1727,7 @@ function PartnerPage() {
                                                 children: "Economic Calendar"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
-                                                lineNumber: 941,
+                                                lineNumber: 1012,
                                                 columnNumber: 9
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1718,26 +1735,26 @@ function PartnerPage() {
                                                 children: "Education Roster"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
-                                                lineNumber: 945,
+                                                lineNumber: 1016,
                                                 columnNumber: 9
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/page.tsx",
-                                        lineNumber: 923,
+                                        lineNumber: 994,
                                         columnNumber: 7
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/page.tsx",
-                                lineNumber: 813,
+                                lineNumber: 884,
                                 columnNumber: 5
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "footer-divider"
                             }, void 0, false, {
                                 fileName: "[project]/app/page.tsx",
-                                lineNumber: 956,
+                                lineNumber: 1027,
                                 columnNumber: 5
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1752,7 +1769,7 @@ function PartnerPage() {
                                                 children: "MaziFinance Brokers Ltd."
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
-                                                lineNumber: 965,
+                                                lineNumber: 1036,
                                                 columnNumber: 9
                                             }, this),
                                             " ",
@@ -1760,7 +1777,7 @@ function PartnerPage() {
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/page.tsx",
-                                        lineNumber: 963,
+                                        lineNumber: 1034,
                                         columnNumber: 7
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1771,7 +1788,7 @@ function PartnerPage() {
                                                 children: "Terms & Conditions"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
-                                                lineNumber: 974,
+                                                lineNumber: 1045,
                                                 columnNumber: 9
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1779,19 +1796,19 @@ function PartnerPage() {
                                                 children: "Privacy Policy"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
-                                                lineNumber: 978,
+                                                lineNumber: 1049,
                                                 columnNumber: 9
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/page.tsx",
-                                        lineNumber: 972,
+                                        lineNumber: 1043,
                                         columnNumber: 7
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/page.tsx",
-                                lineNumber: 961,
+                                lineNumber: 1032,
                                 columnNumber: 5
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1800,19 +1817,19 @@ function PartnerPage() {
                                     "MaziFinance Brokers Ltd. Company Number: 2023-00569, Ground Floor, The Sotheby Building Rodney Village, Rodney Bay, Gros-Islet, Saint Lucia",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                         fileName: "[project]/app/page.tsx",
-                                        lineNumber: 997,
+                                        lineNumber: 1068,
                                         columnNumber: 7
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                         fileName: "[project]/app/page.tsx",
-                                        lineNumber: 998,
+                                        lineNumber: 1069,
                                         columnNumber: 7
                                     }, this),
                                     "MaziFinance s.r.o. Company Number: 55159221, Podunajská 23G, Bratislava, Slovakia"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/page.tsx",
-                                lineNumber: 989,
+                                lineNumber: 1060,
                                 columnNumber: 5
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1821,42 +1838,42 @@ function PartnerPage() {
                                     "All information provided on this site is intended solely for educational purposes related to trading on financial markets and does not serve in any way as a specific investment recommendation, business recommendation, investment opportunity analysis or similar general recommendation regarding the trading of investment instruments.",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                         fileName: "[project]/app/page.tsx",
-                                        lineNumber: 1020,
+                                        lineNumber: 1091,
                                         columnNumber: 7
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                         fileName: "[project]/app/page.tsx",
-                                        lineNumber: 1021,
+                                        lineNumber: 1092,
                                         columnNumber: 7
                                     }, this),
                                     "Monevis Brokers Ltd. only provides services of simulated trading and educational tools for traders. Trading the financial markets is highly risky and you should never risk more than you can afford to lose.",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                         fileName: "[project]/app/page.tsx",
-                                        lineNumber: 1030,
+                                        lineNumber: 1101,
                                         columnNumber: 7
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                         fileName: "[project]/app/page.tsx",
-                                        lineNumber: 1031,
+                                        lineNumber: 1102,
                                         columnNumber: 7
                                     }, this),
                                     "The information on this site is not directed at residents of any country or jurisdiction where such distribution or use would be contrary to local laws or regulations."
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/page.tsx",
-                                lineNumber: 1009,
+                                lineNumber: 1080,
                                 columnNumber: 5
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/page.tsx",
-                        lineNumber: 809,
+                        lineNumber: 880,
                         columnNumber: 3
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/page.tsx",
-                lineNumber: 789,
+                lineNumber: 860,
                 columnNumber: 1
             }, this)
         ]
