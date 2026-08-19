@@ -943,10 +943,7 @@ a {
   transform-origin:
     center center;
 
-  /*
-   * GLASS TINT
-   * Increase this value for a stronger visible glass layer.
-   */
+  
   background:
     rgba(134, 134, 134, 0.18);
 
@@ -1124,8 +1121,7 @@ a {
    TABLET
    768px - 1023px
 
-   Switch from absolute desktop positioning
-   to a proper responsive layout.
+  
 ========================================================= */
 
 @media (max-width: 1023px) {
@@ -5790,6 +5786,7 @@ left: -10px;
     transform:
       rotate(-166deg);
   }
+
 
 
   .cta-gradient-bottom {
