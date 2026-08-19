@@ -226,14 +226,17 @@ export default function PartnerPage() {
           alt="MaziFinance Partner"
         />
       </div>
-
-      
-  
       
 
     </div>
 
-    <div className="hero-glass-blur"></div>
+    <img
+    src="/images/Glass.png"
+    alt=""
+    className="hero-glass-image"
+    aria-hidden="true"
+  />
+
 
   </div>
 </section>
@@ -243,6 +246,8 @@ export default function PartnerPage() {
 
 
 <section className="why-section" id="partners">
+
+
 
   {/* Background glow */}
   <img
@@ -259,6 +264,13 @@ export default function PartnerPage() {
     className="why-top-decoration"
     aria-hidden="true"
   />
+
+  <img
+  src="/images/Glow1.png"
+  alt=""
+  className="why-top-glow"
+  aria-hidden="true"
+/>
 
   <div className="why-container">
 
@@ -805,10 +817,12 @@ export default function PartnerPage() {
       aria-hidden="true"
     />
 
-    <div
-      className="cta-gradient cta-gradient-bottom"
-      aria-hidden="true"
-    />
+    <img
+  src="/images/glow-bottom.png"
+  alt=""
+  className="cta-gradient-bottom"
+  aria-hidden="true"
+/>
 
 
     {/* ================= DECORATIONS ================= */}

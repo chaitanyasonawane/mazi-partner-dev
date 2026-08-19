@@ -934,6 +934,9 @@ a {
   top: 120px;
   right: -170px;
 
+    filter: blur(60px);
+
+
   transform:
     rotate(40.32deg);
 
@@ -1366,15 +1369,20 @@ a {
      IMAGE
   ----------------------------------------- */
 
+   
   .hero-image {
-    width:
-      min(
-        430px,
-        100%
-      );
+    position: relative !important;
 
-    margin-top: 35px;
+    width: min(430px, 100%) !important;
+    height: auto !important;
+
+    top: auto !important;
+    left: auto !important;
+    right: auto !important;
+
+    margin-top: 35px !important;
   }
+
 
 
   /* -----------------------------------------
@@ -1426,13 +1434,10 @@ a {
   }
 
   .hero-image {
-    width:
-      min(
-        400px,
-        105%
-      );
+    width: min(400px, 105%) !important;
+    height: auto !important;
 
-    margin-top: 32px;
+    margin-top: 35px !important;
   }
 
 
@@ -1476,8 +1481,11 @@ a {
       12px 20px;
   }
 
-  .hero-image {
-    margin-top: 28px;
+   .hero-image {
+    width: 100% !important;
+    height: auto !important;
+
+    margin-top: 30px !important;
   }
 
 
@@ -1596,9 +1604,9 @@ a {
 
   height: auto;
 
-  top: 10px;
+  top: 0px;
 
-  right: 10px;
+  right: 0px;
 
   z-index: 1;
 
@@ -1607,6 +1615,22 @@ a {
   opacity: 1;
 }
 
+.why-top-glow {
+  position: absolute;
+
+  width: 420px;
+  height: auto;
+
+  top: 0;
+  right: 0;
+
+  z-index: 2;
+
+  pointer-events: none;
+  user-select: none;
+
+  opacity: 1;
+}
 
 /* =========================================================
    CONTAINER
@@ -2077,6 +2101,192 @@ left: -10px;
 
   color:
     #ffffff;
+}
+
+
+
+/* =================================================
+   WHY PARTNER — DECORATION + GLOW
+================================================= */
+
+.why-top-decoration,
+.why-top-glow {
+  position: absolute;
+
+  width: 420px;
+  height: auto;
+
+  top: 0;
+  right: 0;
+
+  pointer-events: none;
+  user-select: none;
+}
+
+.why-top-decoration {
+  z-index: 1;
+  opacity: 1;
+}
+
+.why-top-glow {
+  z-index: 2;
+  opacity: 1;
+}
+
+
+/* =========================
+   TABLET
+   768px – 1023px
+========================= */
+
+@media (max-width: 1023px) {
+  .cards-glow {
+    bottom: 0 !important;
+
+    left: 50% !important;
+    top: auto !important;
+
+    width: 110% !important;
+    height: auto !important;
+
+    transform: translateX(-50%) !important;
+  }
+}
+
+@media (max-width: 1023px) {
+  .why-top-decoration,
+  .why-top-glow {
+    width: 340px;
+    top: 0;
+    right: -5px;
+  }
+}
+
+
+/* =========================
+   MOBILE
+   600px – 767px
+========================= */
+@media (max-width: 767px) {
+  .why-top-decoration,
+  .why-top-glow {
+    width: 290px;
+    top: 0;
+    right: -15px;
+  }
+}
+
+@media (max-width: 767px) {
+  .cards-glow {
+    bottom: 0 !important;
+
+    left: 50% !important;
+    top: auto !important;
+
+    width: 125% !important;
+    height: auto !important;
+
+    transform: translateX(-50%) !important;
+  }
+}
+
+
+/* =========================
+   SMALL MOBILE
+   481px – 600px
+========================= */
+@media (max-width: 600px) {
+  .why-top-decoration,
+  .why-top-glow {
+    width: 255px;
+    top: 0;
+    right: -20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .cards-glow {
+    bottom: 0 !important;
+
+    left: 50% !important;
+    top: auto !important;
+
+    width: 140% !important;
+    height: auto !important;
+
+    transform: translateX(-50%) !important;
+  }
+}
+
+
+/* =========================
+   MOBILE
+   390px – 480px
+========================= */
+@media (max-width: 480px) {
+  .why-top-decoration,
+  .why-top-glow {
+    width: 225px;
+    top: 0;
+    right: -20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .cards-glow {
+    bottom: 0 !important;
+
+    left: 50% !important;
+    top: auto !important;
+
+    width: 140% !important;
+    height: auto !important;
+
+    transform: translateX(-50%) !important;
+  }
+}
+
+
+/* =========================
+   VERY SMALL MOBILE
+   ≤ 389px
+========================= */
+@media (max-width: 389px) {
+  .why-top-decoration,
+  .why-top-glow {
+    width: 205px;
+    top: 0;
+    right: -18px;
+  }
+}
+
+
+@media (max-width: 380px) {
+  .cards-glow {
+    bottom: 0 !important;
+
+    left: 50% !important;
+    top: auto !important;
+
+    width: 150% !important;
+    height: auto !important;
+
+    transform: translateX(-50%) !important;
+  }
+}
+
+
+/* =========================
+   EXTRA SMALL
+   ≤ 360px
+========================= */
+@media (max-width: 360px) {
+  .why-top-decoration,
+  .why-top-glow {
+    width: 185px;
+    top: 0;
+    right: -15px;
+  }
 }
 
 
@@ -3695,7 +3905,7 @@ left: -10px;
 
   filter: blur(90px);
 
-  opacity: 0.65;
+  opacity: 0.9;
 
   mix-blend-mode: screen;
 }
@@ -5010,7 +5220,7 @@ left: -10px;
 ========================================================= */
 
 .cta-gradient-top {
-  top: -579px;
+  top: -520px;
 
   left: 152px;
 
@@ -5031,19 +5241,24 @@ left: -10px;
 ========================================================= */
 
 .cta-gradient-bottom {
-  top: 420px;
+  position: absolute;
 
-  left: -474px;
+ 
+  height: auto;
 
-  transform:
-    rotate(166.01deg);
+  top: 300px;
+  left: -350px;
 
+  
+  transform-origin: center;
 
+  object-fit: contain;
+
+  pointer-events: none;
+  user-select: none;
 
   z-index: 3;
-
 }
-
 
 /* =========================================================
    CTA DECORATIONS
@@ -5338,16 +5553,15 @@ left: -10px;
 
 
   .cta-gradient-top {
-    top: -500px;
+    top: -450px;
 
     left: 130px;
   }
 
 
   .cta-gradient-bottom {
-    top: 230px;
-
-    left: -400px;
+    top: 300px;
+    left: -290px;
   }
 }
 
@@ -5444,16 +5658,18 @@ left: -10px;
 
 
   .cta-gradient-top {
-    top: -430px;
+    top: -390px;
 
     left: 100px;
   }
 
 
   .cta-gradient-bottom {
-    top: 220px;
+    top: 320px;
+    left: -270px;
 
-    left: -350px;
+    width: 850px;
+    max-width: none;
   }
 }
 
@@ -5567,7 +5783,7 @@ left: -10px;
 
 
   .cta-gradient-top {
-    top: -340px;
+    top: -290px;
 
     left: 50px;
 
@@ -5577,12 +5793,11 @@ left: -10px;
 
 
   .cta-gradient-bottom {
-    top: 310px;
+    top: 350px;
+    left: -250px;
 
-    left: -300px;
-
-    transform:
-      rotate(166deg);
+    width: 750px;
+    max-width: none;
   }
 }
 
@@ -5673,16 +5888,19 @@ left: -10px;
 
 
   .cta-gradient-top {
-    top: -280px;
+    top: -250px;
 
     left: 30px;
   }
 
 
+  
   .cta-gradient-bottom {
-    top: 300px;
+    top: 360px;
+    left: -235px;
 
-    left: -260px;
+    width: 680px;
+    max-width: none;
   }
 }
 
@@ -5780,26 +5998,18 @@ left: -10px;
   position: absolute;
 
   width: 1143px;
-
   height: 224px;
-
   max-width: none;
-
   object-fit: contain;
 
   left: 50%;
+  bottom: 0;
 
-  bottom: -30px;
-
-  transform:
-    translateX(-50%);
+  transform: translateX(-50%);
 
   opacity: 0.25;
-
   pointer-events: none;
-
   user-select: none;
-
   z-index: 2;
 }
 
@@ -8616,3 +8826,1397 @@ img {
     top: 390px;
   }
 }
+
+
+
+
+/* ---------------------------------------------------------
+   1. HERO GLASS / FROSTED GLASS
+   --------------------------------------------------------- */
+.hero-glass-image {
+  position: absolute;
+
+  width: 580px;
+  height: 890px;
+
+  top: 120px;
+  right: -230px;
+
+  object-fit: contain;
+
+  transform: rotate(0deg);
+  transform-origin: center;
+
+  pointer-events: none;
+  user-select: none;
+
+  z-index: 2;
+}
+
+/* ---------------------------------------------------------
+   2. WHY PARTNER — GRADIENT GLOW BEHIND CORNER DECORATION
+   Figma reference:
+   W 361px / H 1016.875px / angle -90deg
+   --------------------------------------------------------- */
+.why-section::before {
+  content: "";
+  position: absolute;
+  width: 361px;
+  height: 1016.875px;
+  top: -400px;
+  right: -65px;
+  transform: rotate(-90deg);
+  transform-origin: center;
+  background:
+    radial-gradient(
+      ellipse at center,
+      rgba(183, 92, 255, 0.34) 0%,
+      rgba(151, 54, 255, 0.22) 28%,
+      rgba(110, 35, 210, 0.10) 52%,
+      rgba(80, 20, 150, 0) 90%
+    );
+  filter: blur(42px);
+  opacity: 0.75;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.why-top-decoration {
+  z-index: 0;
+}
+
+/* ---------------------------------------------------------
+   3. FAQ — REMOVE THE 150px MOBILE/TABLET GAP
+   The desktop layout intentionally uses top:150px.
+   On responsive layouts it must return to normal flow.
+   --------------------------------------------------------- */
+@media (max-width: 1023px) {
+  .faq-container {
+    top: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .faq-section {
+    padding-top: 50px;
+    padding-bottom: 65px;
+  }
+
+  .faq-container {
+    top: 0;
+    gap: 24px;
+  }
+
+  .faq-title {
+    gap: 12px;
+  }
+
+  .faq-list {
+    gap: 9px;
+  }
+}
+
+@media (max-width: 480px) {
+  .faq-section {
+    padding-top: 45px;
+    padding-bottom: 55px;
+  }
+
+  .faq-container {
+    gap: 20px;
+  }
+
+  .faq-list {
+    gap: 8px;
+  }
+}
+
+/* ---------------------------------------------------------
+   4. FOOTER WATERMARK LOGO — KEEP IT ALIGNED ON MOBILE
+   The large footer-vector is the decorative logo sitting at
+   the bottom of the footer.
+   --------------------------------------------------------- */
+@media (max-width: 767px) {
+  .footer-vector {
+    width: min(650px, 150vw);
+    bottom: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-vector {
+    width: 145vw;
+    bottom: -8px;
+    opacity: 0.15;
+  }
+}
+
+@media (max-width: 380px) {
+  .footer-vector {
+    width: 155vw;
+    bottom: -5px;
+  }
+}
+
+/* ---------------------------------------------------------
+   5. HERO NAVBAR SPACING — FIX SMALL MOBILE OVERRIDE
+   The old <=380px rule reset padding from 145px to 45px,
+   which caused the heading to move back under the navbar.
+   --------------------------------------------------------- */
+@media (max-width: 767px) {
+  .hero-content {
+    padding-top: 105px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-content {
+    padding-top: 118px;
+  }
+}
+
+@media (max-width: 380px) {
+  .hero-content {
+    padding-top: 122px;
+  }
+}
+
+/* ---------------------------------------------------------
+   6. HERO GLASS RESPONSIVE POSITIONING
+   --------------------------------------------------------- */
+/* =========================================================
+   LAPTOP
+   1024px – 1199px
+========================================================= */
+
+@media (min-width: 1024px) and (max-width: 1199px) {
+  .hero-glass-image {
+    width: 310px;
+    height: 650px;
+
+    top: 105px;
+    right: -175px;
+
+    transform: rotate(38deg);
+
+    filter: blur(15px);
+  }
+}
+
+
+/* =========================================================
+   TABLET
+   768px – 1023px
+========================================================= */
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .hero-glass-image {
+    width: 285px;
+    height: 590px;
+
+    top: 250px;
+    right: -185px;
+
+    transform: rotate(35deg);
+
+    filter: blur(15px);
+  }
+}
+
+
+/* =========================================================
+   MOBILE
+   481px – 767px
+========================================================= */
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .hero-glass-image {
+    width: 255px;
+    height: 520px;
+
+    top: 390px;
+    right: -175px;
+
+    transform: rotate(32deg);
+
+    filter: blur(13px);
+  }
+}
+
+
+/* =========================================================
+   SMALL MOBILE
+   390px – 480px
+========================================================= */
+
+@media (min-width: 390px) and (max-width: 480px) {
+  .hero-glass-image {
+    width: 220px;
+    height: 470px;
+
+    top: 420px;
+    right: -165px;
+
+    transform: rotate(30deg);
+
+    filter: blur(12px);
+  }
+}
+
+
+/* =========================================================
+   VERY SMALL MOBILE
+   ≤ 389px
+========================================================= */
+
+@media (max-width: 389px) {
+  .hero-glass-image {
+    width: 205px;
+    height: 430px;
+
+    top: 430px;
+    right: -160px;
+
+    transform: rotate(30deg);
+
+    filter: blur(11px);
+  }
+}
+
+
+/* =========================================================
+   EXTRA SMALL
+   ≤ 360px
+========================================================= */
+
+@media (max-width: 360px) {
+  .hero-glass-image {
+    width: 190px;
+    height: 405px;
+
+    top: 440px;
+    right: -150px;
+
+    transform: rotate(29deg);
+
+    filter: blur(10px);
+  }
+}
+
+/* ---------------------------------------------------------
+   7. WHY PARTNER GLOW RESPONSIVE
+   --------------------------------------------------------- */
+@media (max-width: 1023px) {
+  .why-section::before {
+    width: 300px;
+    height: 820px;
+    top: -180px;
+    right: -85px;
+    filter: blur(36px);
+    opacity: 0.75;
+  }
+}
+
+@media (max-width: 767px) {
+  .why-section::before {
+    width: 250px;
+    height: 680px;
+    top: -145px;
+    right: -100px;
+    filter: blur(30px);
+    opacity: 0.62;
+  }
+}
+
+@media (max-width: 480px) {
+  .why-section::before {
+    width: 220px;
+    height: 590px;
+    top: -125px;
+    right: -105px;
+    filter: blur(26px);
+    opacity: 0.55;
+  }
+}
+
+/* ---------------------------------------------------------
+   8. TABLE GLASS — CONSISTENT TRANSLUCENCY
+   The previous rules used fully opaque cell backgrounds,
+   which prevented the backdrop-filter from being visible.
+   --------------------------------------------------------- */
+.table-row > div {
+  background: rgba(247, 247, 249, 0.50) !important;
+  backdrop-filter: blur(24px) saturate(125%);
+  -webkit-backdrop-filter: blur(24px) saturate(125%);
+}
+
+.table-row > div:first-child {
+  background: rgba(247, 247, 249, 0.48) !important;
+}
+
+.table-row > div:last-child {
+  background: rgba(174, 86, 232, 0.13) !important;
+  backdrop-filter: blur(28px) saturate(130%);
+  -webkit-backdrop-filter: blur(28px) saturate(130%);
+}
+
+@media (max-width: 600px) {
+  .table-row > div {
+    background: rgba(247, 247, 249, 0.48) !important;
+    backdrop-filter: blur(18px) saturate(120%);
+    -webkit-backdrop-filter: blur(18px) saturate(120%);
+  }
+
+  .table-row > div:first-child {
+    background: rgba(247, 247, 249, 0.45) !important;
+  }
+
+  .table-row > div:last-child {
+    background: rgba(174, 86, 232, 0.12) !important;
+  }
+}
+
+
+/* =========================================================
+   FINAL PASS 2 — GLASS / FOOTER / TABLE
+========================================================= */
+
+/* ---------------------------------------------------------
+   HERO GLASS IMAGE
+   Keep the glass decoration 50–80px farther LEFT on every
+   breakpoint than the previous pass, without moving it up.
+--------------------------------------------------------- */
+.hero-glass-blur {
+  top: 85px !important;
+  right: -190px !important;
+}
+
+@media (max-width: 1023px) {
+  .hero-glass-blur {
+    top: 330px !important;
+    right: -220px !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .hero-glass-blur {
+    top: 430px !important;
+    right: -205px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-glass-blur {
+    top: 455px !important;
+    right: -195px !important;
+  }
+}
+
+@media (max-width: 380px) {
+  .hero-glass-blur {
+    top: 465px !important;
+    right: -190px !important;
+  }
+}
+
+/* ---------------------------------------------------------
+   FOOTER PARTNER LOGO
+   Responsive size + stable bottom alignment.
+   --------------------------------------------------------- */
+@media (min-width: 1200px) {
+  .footer-vector {
+    width: 950px !important;
+    max-width: 72vw;
+    bottom: -12px !important;
+  }
+}
+
+@media (min-width: 901px) and (max-width: 1199px) {
+  .footer-vector {
+    width: 800px !important;
+    max-width: 78vw;
+    bottom: -10px !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 900px) {
+  .footer-vector {
+    width: 650px !important;
+    max-width: 82vw;
+    bottom: -8px !important;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .footer-vector {
+    width: 500px !important;
+    max-width: 88vw;
+    bottom: -7px !important;
+  }
+}
+
+@media (min-width: 381px) and (max-width: 480px) {
+  .footer-vector {
+    width: 390px !important;
+    max-width: 92vw;
+    bottom: -5px !important;
+  }
+}
+
+@media (max-width: 380px) {
+  .footer-vector {
+    width: 335px !important;
+    max-width: 94vw;
+    bottom: -4px !important;
+  }
+}
+
+/* ---------------------------------------------------------
+   COMMISSION TABLE — REAL FROSTED GLASS
+   backdrop-filter only works when the element is translucent
+   AND there is something behind it to blur.
+--------------------------------------------------------- */
+.commission-table {
+  isolation: isolate;
+}
+
+.table-row {
+  isolation: isolate;
+}
+
+/* Add an actual background layer behind the cells so the
+   backdrop-filter has visible content to sample. */
+.table-row::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.22) 0%,
+      rgba(220, 195, 255, 0.18) 52%,
+      rgba(155, 65, 235, 0.24) 100%
+    );
+  filter: blur(0);
+}
+
+.table-row > div {
+  position: relative;
+  z-index: 1;
+
+  /* Important: NOT opaque */
+  background:
+    rgba(255, 255, 255, 0.34) !important;
+
+  backdrop-filter:
+    blur(28px) saturate(145%) contrast(105%) !important;
+
+  -webkit-backdrop-filter:
+    blur(28px) saturate(145%) contrast(105%) !important;
+
+  border-top: 1px solid rgba(255, 255, 255, 0.38);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.18),
+    inset 0 0 30px rgba(255, 255, 255, 0.05);
+}
+
+.table-row > div:first-child {
+  background:
+    rgba(245, 245, 249, 0.38) !important;
+
+  backdrop-filter:
+    blur(28px) saturate(145%) contrast(105%) !important;
+
+  -webkit-backdrop-filter:
+    blur(28px) saturate(145%) contrast(105%) !important;
+}
+
+.table-row > div:last-child {
+  background:
+    rgba(163, 73, 230, 0.16) !important;
+
+  backdrop-filter:
+    blur(32px) saturate(150%) contrast(105%) !important;
+
+  -webkit-backdrop-filter:
+    blur(32px) saturate(150%) contrast(105%) !important;
+
+  border-left:
+    1px solid rgba(255, 255, 255, 0.42);
+}
+
+/* Keep the decoration behind the glass so it can actually be
+   blurred through the translucent table cells. */
+.commission-decoration {
+  z-index: 0 !important;
+}
+
+/* Soft light behind the table */
+.commission-section::after {
+  z-index: 0 !important;
+}
+
+@media (max-width: 900px) {
+  .table-row > div {
+    backdrop-filter:
+      blur(24px) saturate(140%) contrast(105%) !important;
+    -webkit-backdrop-filter:
+      blur(24px) saturate(140%) contrast(105%) !important;
+  }
+
+  .table-row > div:last-child {
+    backdrop-filter:
+      blur(27px) saturate(145%) contrast(105%) !important;
+    -webkit-backdrop-filter:
+      blur(27px) saturate(145%) contrast(105%) !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .table-row > div {
+    background:
+      rgba(255, 255, 255, 0.32) !important;
+
+    backdrop-filter:
+      blur(20px) saturate(140%) contrast(105%) !important;
+
+    -webkit-backdrop-filter:
+      blur(20px) saturate(140%) contrast(105%) !important;
+  }
+
+  .table-row > div:first-child {
+    background:
+      rgba(245, 245, 249, 0.34) !important;
+  }
+
+  .table-row > div:last-child {
+    background:
+      rgba(163, 73, 230, 0.15) !important;
+
+    backdrop-filter:
+      blur(23px) saturate(145%) contrast(105%) !important;
+
+    -webkit-backdrop-filter:
+      blur(23px) saturate(145%) contrast(105%) !important;
+  }
+}
+
+
+/* =========================================================
+   FINAL PASS 3 — INTENSITY / POSITION / FOOTER SPACING
+========================================================= */
+
+/* ---------------------------------------------------------
+   HERO GLASS
+   - Move further LEFT from previous pass
+   - Move DOWN by 50px
+   - ~3x stronger visual blur
+--------------------------------------------------------- */
+.hero-glass-blur {
+  top: 135px !important;
+  right: -240px !important;
+  backdrop-filter: blur(84px) saturate(155%) !important;
+  -webkit-backdrop-filter: blur(84px) saturate(155%) !important;
+}
+
+@media (max-width: 1023px) {
+  .hero-glass-blur {
+    top: 380px !important;
+    right: -270px !important;
+    backdrop-filter: blur(72px) saturate(150%) !important;
+    -webkit-backdrop-filter: blur(72px) saturate(150%) !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .hero-glass-blur {
+    top: 480px !important;
+    right: -255px !important;
+    backdrop-filter: blur(60px) saturate(145%) !important;
+    -webkit-backdrop-filter: blur(60px) saturate(145%) !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-glass-blur {
+    top: 505px !important;
+    right: -245px !important;
+    backdrop-filter: blur(54px) saturate(140%) !important;
+    -webkit-backdrop-filter: blur(54px) saturate(140%) !important;
+  }
+}
+
+@media (max-width: 380px) {
+  .hero-glass-blur {
+    top: 515px !important;
+    right: -240px !important;
+    backdrop-filter: blur(50px) saturate(140%) !important;
+    -webkit-backdrop-filter: blur(50px) saturate(140%) !important;
+  }
+}
+
+/* ---------------------------------------------------------
+   FOOTER PARTNER LOGO
+   Reduce the vertical gap to footer content by ~40%.
+   The logo remains responsive in width.
+--------------------------------------------------------- */
+.footer-vector {
+  margin-bottom: 0 !important;
+}
+
+@media (min-width: 1200px) {
+  .footer-vector {
+    bottom: 18px !important;
+  }
+}
+
+@media (min-width: 901px) and (max-width: 1199px) {
+  .footer-vector {
+    bottom: 15px !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 900px) {
+  .footer-vector {
+    bottom: 12px !important;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .footer-vector {
+    bottom: 10px !important;
+  }
+}
+
+@media (min-width: 381px) and (max-width: 480px) {
+  .footer-vector {
+    bottom: 8px !important;
+  }
+}
+
+@media (max-width: 380px) {
+  .footer-vector {
+    bottom: 7px !important;
+  }
+}
+
+/* ---------------------------------------------------------
+   COMMISSION TABLE
+   ~3x stronger blur than the previous pass.
+   Keep the surface translucent so backdrop-filter remains
+   visible.
+--------------------------------------------------------- */
+.table-row > div {
+  backdrop-filter:
+    blur(84px) saturate(160%) contrast(108%) !important;
+  -webkit-backdrop-filter:
+    blur(84px) saturate(160%) contrast(108%) !important;
+}
+
+.table-row > div:first-child {
+  backdrop-filter:
+    blur(84px) saturate(160%) contrast(108%) !important;
+  -webkit-backdrop-filter:
+    blur(84px) saturate(160%) contrast(108%) !important;
+}
+
+.table-row > div:last-child {
+  backdrop-filter:
+    blur(96px) saturate(165%) contrast(108%) !important;
+  -webkit-backdrop-filter:
+    blur(96px) saturate(165%) contrast(108%) !important;
+}
+
+@media (max-width: 900px) {
+  .table-row > div {
+    backdrop-filter:
+      blur(72px) saturate(155%) contrast(108%) !important;
+    -webkit-backdrop-filter:
+      blur(72px) saturate(155%) contrast(108%) !important;
+  }
+
+  .table-row > div:last-child {
+    backdrop-filter:
+      blur(81px) saturate(160%) contrast(108%) !important;
+    -webkit-backdrop-filter:
+      blur(81px) saturate(160%) contrast(108%) !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .table-row > div {
+    backdrop-filter:
+      blur(60px) saturate(150%) contrast(108%) !important;
+    -webkit-backdrop-filter:
+      blur(60px) saturate(150%) contrast(108%) !important;
+  }
+
+  .table-row > div:first-child {
+    backdrop-filter:
+      blur(60px) saturate(150%) contrast(108%) !important;
+    -webkit-backdrop-filter:
+      blur(60px) saturate(150%) contrast(108%) !important;
+  }
+
+  .table-row > div:last-child {
+    backdrop-filter:
+      blur(69px) saturate(155%) contrast(108%) !important;
+    -webkit-backdrop-filter:
+      blur(69px) saturate(155%) contrast(108%) !important;
+  }
+}
+
+
+/* =========================================================
+   COMMISSION GLASS — ROOT CAUSE FIX
+   The previous blur was being applied, but the table was
+   isolated in its own stacking context. The decoration was
+   outside/behind that isolated context, so backdrop-filter
+   had no visible backdrop to sample. Result: transparency
+   without visible blur.
+
+   Fix:
+   1. Remove isolation from the table.
+   2. Do not create unnecessary stacking contexts on rows/cells.
+   3. Keep the decoration behind the table but in the same
+      section stacking context.
+   4. Give the table cells a translucent surface.
+========================================================= */
+
+.commission-section {
+  position: relative;
+  isolation: auto !important;
+}
+
+.commission-table {
+  position: relative;
+  isolation: auto !important;
+  z-index: 3;
+}
+
+/* Row itself must NOT become an isolated/opaque layer. */
+.commission-table .table-row {
+  position: relative;
+  z-index: auto !important;
+  isolation: auto !important;
+  overflow: hidden;
+  background: transparent !important;
+}
+
+/* Remove the artificial row overlay from the previous attempt.
+   It was sitting between the decoration and the glass surface. */
+.commission-table .table-row::before {
+  display: none !important;
+}
+
+/* Actual glass surface */
+.commission-table .table-row > div {
+  position: relative;
+  z-index: auto !important;
+
+  background: rgba(255, 255, 255, 0.28) !important;
+
+  backdrop-filter:
+    blur(84px) saturate(155%) !important;
+
+  -webkit-backdrop-filter:
+    blur(84px) saturate(155%) !important;
+
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.30),
+    inset 0 0 35px rgba(255, 255, 255, 0.06);
+}
+
+/* Left side */
+.commission-table .table-row > div:first-child {
+  background: rgba(245, 245, 249, 0.30) !important;
+
+  backdrop-filter:
+    blur(84px) saturate(155%) !important;
+
+  -webkit-backdrop-filter:
+    blur(84px) saturate(155%) !important;
+}
+
+/* Purple/value side */
+.commission-table .table-row > div:last-child {
+  background: rgba(163, 73, 230, 0.13) !important;
+
+  backdrop-filter:
+    blur(96px) saturate(160%) !important;
+
+  -webkit-backdrop-filter:
+    blur(96px) saturate(160%) !important;
+}
+
+/* Decoration must be visible in the backdrop */
+.commission-section .commission-decoration {
+  z-index: 1 !important;
+}
+
+/* Glow also participates in the backdrop */
+.commission-section::after {
+  z-index: 0 !important;
+}
+
+/* Make sure the table remains above the decoration */
+.commission-section .commission-container {
+  position: relative;
+  z-index: 3;
+}
+
+@media (max-width: 900px) {
+  .commission-table .table-row > div {
+    background: rgba(255, 255, 255, 0.27) !important;
+
+    backdrop-filter:
+      blur(72px) saturate(150%) !important;
+
+    -webkit-backdrop-filter:
+      blur(72px) saturate(150%) !important;
+  }
+
+  .commission-table .table-row > div:first-child {
+    background: rgba(245, 245, 249, 0.29) !important;
+  }
+
+  .commission-table .table-row > div:last-child {
+    background: rgba(163, 73, 230, 0.12) !important;
+
+    backdrop-filter:
+      blur(82px) saturate(155%) !important;
+
+    -webkit-backdrop-filter:
+      blur(82px) saturate(155%) !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .commission-table .table-row > div {
+    background: rgba(255, 255, 255, 0.25) !important;
+
+    backdrop-filter:
+      blur(60px) saturate(145%) !important;
+
+    -webkit-backdrop-filter:
+      blur(60px) saturate(145%) !important;
+  }
+
+  .commission-table .table-row > div:first-child {
+    background: rgba(245, 245, 249, 0.27) !important;
+  }
+
+  .commission-table .table-row > div:last-child {
+    background: rgba(163, 73, 230, 0.11) !important;
+
+    backdrop-filter:
+      blur(69px) saturate(150%) !important;
+
+    -webkit-backdrop-filter:
+      blur(69px) saturate(150%) !important;
+  }
+}
+
+/* ================================================================
+   FINAL GLASS FIX — HERO + COMMISSION TABLE
+   APPEND THIS BLOCK AT THE VERY END OF page.css
+   ================================================================ */
+
+.hero-visual {
+  position: relative;
+  width: min(560px, 48vw);
+  height: auto;
+  aspect-ratio: 558 / 540;
+  flex: 0 0 auto;
+  z-index: 3;
+  isolation: auto;
+  overflow: visible;
+}
+
+.hero-visual .hero-image {
+  position: absolute !important;
+  inset: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  margin: 0 !important;
+  max-width: none !important;
+  max-height: none !important;
+  z-index: 1;
+}
+
+.hero-visual .hero-image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+}
+
+.hero-visual .hero-glass-blur {
+  position: absolute !important;
+
+  /* Desktop */
+  width: 48%;
+  height: 142%;
+  top: 8%;
+  right: -27%;
+
+  transform: rotate(40.32deg);
+  transform-origin: center;
+
+  /*
+   * IMPORTANT:
+   * The background must stay translucent.
+   * backdrop-filter samples the hero image directly behind it.
+   */
+  background:
+    linear-gradient(
+      135deg,
+      rgba(255, 255, 255, 0.07),
+      rgba(235, 220, 250, 0.12) 45%,
+      rgba(255, 255, 255, 0.055)
+    ) !important;
+
+  border: 1px solid rgba(255, 255, 255, 0.14);
+
+  backdrop-filter:
+    blur(34px) saturate(145%) !important;
+  -webkit-backdrop-filter:
+    blur(34px) saturate(145%) !important;
+
+  box-shadow:
+    inset 0 0 70px rgba(255,255,255,0.055),
+    0 0 45px rgba(165,90,255,0.08);
+
+  opacity: 1 !important;
+
+  z-index: 2 !important;
+  pointer-events: none;
+
+  /*
+   * Do NOT use isolation:isolate here.
+   * Do NOT use will-change:backdrop-filter.
+   */
+  isolation: auto !important;
+  will-change: auto !important;
+}
+
+/* Large laptop */
+@media (max-width: 1199px) {
+  .hero-visual {
+    width: min(500px, 48vw);
+  }
+
+  .hero-visual .hero-glass-blur {
+    width: 50%;
+    height: 138%;
+    top: 9%;
+    right: -29%;
+    transform: rotate(38deg);
+    backdrop-filter: blur(32px) saturate(140%) !important;
+    -webkit-backdrop-filter: blur(32px) saturate(140%) !important;
+  }
+}
+
+/* Tablet */
+@media (max-width: 1023px) {
+  .hero-visual {
+    width: min(500px, 68vw);
+    margin: 0 auto;
+  }
+
+  .hero-visual .hero-glass-blur {
+    width: 49%;
+    height: 135%;
+    top: 15%;
+    right: -31%;
+    transform: rotate(36deg);
+
+    backdrop-filter: blur(30px) saturate(140%) !important;
+    -webkit-backdrop-filter: blur(30px) saturate(140%) !important;
+  }
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+  .hero-visual {
+    width: min(390px, 82vw);
+    aspect-ratio: 558 / 540;
+    margin: 28px auto 0;
+  }
+
+  .hero-visual .hero-glass-blur {
+    width: 48%;
+    height: 132%;
+    top: 18%;
+    right: -30%;
+    transform: rotate(33deg);
+
+    backdrop-filter: blur(27px) saturate(135%) !important;
+    -webkit-backdrop-filter: blur(27px) saturate(135%) !important;
+  }
+}
+
+/* Small mobile */
+@media (max-width: 600px) {
+  .hero-visual {
+    width: min(350px, 84vw);
+    margin-top: 25px;
+  }
+
+  .hero-visual .hero-glass-blur {
+    width: 47%;
+    height: 130%;
+    top: 20%;
+    right: -29%;
+    transform: rotate(31deg);
+
+    backdrop-filter: blur(25px) saturate(135%) !important;
+    -webkit-backdrop-filter: blur(25px) saturate(135%) !important;
+  }
+}
+
+/* 390–480px */
+@media (max-width: 480px) {
+  .hero-visual {
+    width: min(315px, 82vw);
+    margin-top: 22px;
+  }
+
+  .hero-visual .hero-glass-blur {
+    width: 46%;
+    height: 128%;
+    top: 21%;
+    right: -28%;
+    transform: rotate(30deg);
+
+    backdrop-filter: blur(23px) saturate(130%) !important;
+    -webkit-backdrop-filter: blur(23px) saturate(130%) !important;
+  }
+}
+
+/* Very small mobile */
+@media (max-width: 389px) {
+  .hero-visual {
+    width: min(285px, 80vw);
+    margin-top: 20px;
+  }
+
+  .hero-visual .hero-glass-blur {
+    width: 46%;
+    height: 126%;
+    top: 22%;
+    right: -28%;
+    transform: rotate(29deg);
+
+    backdrop-filter: blur(21px) saturate(130%) !important;
+    -webkit-backdrop-filter: blur(21px) saturate(130%) !important;
+  }
+}
+
+@media (max-width: 360px) {
+  .hero-visual {
+    width: 78vw;
+    max-width: 275px;
+  }
+
+  .hero-visual .hero-glass-blur {
+    width: 45%;
+    height: 124%;
+    top: 23%;
+    right: -27%;
+
+    backdrop-filter: blur(20px) saturate(125%) !important;
+    -webkit-backdrop-filter: blur(20px) saturate(125%) !important;
+  }
+}
+
+
+/* ================================================================
+   COMMISSION TABLE — REAL FROSTED GLASS
+   TSX structure required:
+
+   <div className="commission-table-wrap">
+     <img
+       src="/images/commission-decoration.png"
+       className="commission-table-decoration"
+       alt=""
+       aria-hidden="true"
+     />
+
+     <div className="commission-table">
+       ...
+     </div>
+   </div>
+
+   The important change is that the decoration and glass table
+   MUST share the same wrapper/stacking context.
+   ================================================================ */
+
+.commission-table-wrap {
+  position: relative;
+  width: 100%;
+  isolation: isolate;
+  overflow: visible;
+}
+
+/* Decorative image that the glass cells will sample */
+.commission-table-wrap .commission-table-decoration {
+  position: absolute;
+
+  width: 400px;
+  height: auto;
+
+  top: 50%;
+  right: -15px;
+
+  transform: translateY(-50%) rotate(-45deg);
+
+  object-fit: contain;
+
+  opacity: 0.42;
+
+  z-index: 0;
+  pointer-events: none;
+  user-select: none;
+
+  max-width: none;
+}
+
+/* Soft purple light behind the glass */
+.commission-table-wrap::before {
+  content: "";
+  position: absolute;
+
+  width: 360px;
+  height: 300px;
+
+  top: 52%;
+  right: 45px;
+
+  transform: translateY(-50%);
+
+  background:
+    radial-gradient(
+      ellipse,
+      rgba(151, 43, 255, 0.30) 0%,
+      rgba(151, 43, 255, 0.14) 38%,
+      rgba(151, 43, 255, 0) 72%
+    );
+
+  filter: blur(35px);
+
+  z-index: 0;
+  pointer-events: none;
+}
+
+/* Table is above decoration */
+.commission-table-wrap .commission-table {
+  position: relative;
+
+  z-index: 2;
+
+  isolation: auto !important;
+
+  /*
+   * Do not put opacity/filter/transform on this element.
+   * Those can create a new compositing context.
+   */
+  opacity: 1;
+}
+
+/* Rows must remain transparent containers */
+.commission-table-wrap .table-row {
+  position: relative;
+
+  z-index: auto !important;
+  isolation: auto !important;
+
+  background: transparent !important;
+}
+
+/* Remove every previous artificial row overlay */
+.commission-table-wrap .table-row::before {
+  display: none !important;
+}
+
+/* ================================================================
+   ACTUAL GLASS SURFACE
+   ================================================================ */
+
+.commission-table-wrap .table-row > div {
+  position: relative;
+
+  /*
+   * LOW alpha is intentional.
+   * If this becomes opaque, the blur disappears visually.
+   */
+  background:
+    rgba(255, 255, 255, 0.22) !important;
+
+  backdrop-filter:
+    blur(32px) saturate(145%) contrast(105%) !important;
+
+  -webkit-backdrop-filter:
+    blur(32px) saturate(145%) contrast(105%) !important;
+
+  border-top:
+    1px solid rgba(255, 255, 255, 0.34);
+
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.18),
+    inset 0 0 32px rgba(255,255,255,0.045);
+
+  z-index: auto !important;
+}
+
+/* Left column */
+.commission-table-wrap .table-row > div:first-child {
+  background:
+    rgba(247, 247, 249, 0.24) !important;
+
+  backdrop-filter:
+    blur(32px) saturate(145%) contrast(105%) !important;
+
+  -webkit-backdrop-filter:
+    blur(32px) saturate(145%) contrast(105%) !important;
+}
+
+/* Right/purple column */
+.commission-table-wrap .table-row > div:last-child {
+  background:
+    rgba(163, 73, 230, 0.13) !important;
+
+  backdrop-filter:
+    blur(38px) saturate(155%) contrast(108%) !important;
+
+  -webkit-backdrop-filter:
+    blur(38px) saturate(155%) contrast(108%) !important;
+
+  border-left:
+    1px solid rgba(255, 255, 255, 0.38);
+}
+
+/* Remove old opaque/hover backgrounds */
+.commission-table-wrap .table-row:hover > div:first-child {
+  background:
+    rgba(247, 247, 249, 0.24) !important;
+}
+
+.commission-table-wrap .table-row:hover > div:last-child {
+  background:
+    rgba(163, 73, 230, 0.13) !important;
+}
+
+/* Tablet */
+@media (max-width: 900px) {
+  .commission-table-wrap .commission-table-decoration {
+    width: 280px;
+    right: -55px;
+  }
+
+  .commission-table-wrap::before {
+    width: 280px;
+    height: 250px;
+    right: 10px;
+  }
+
+  .commission-table-wrap .table-row > div {
+    background:
+      rgba(255, 255, 255, 0.21) !important;
+
+    backdrop-filter:
+      blur(27px) saturate(140%) !important;
+
+    -webkit-backdrop-filter:
+      blur(27px) saturate(140%) !important;
+  }
+
+  .commission-table-wrap .table-row > div:first-child {
+    background:
+      rgba(247, 247, 249, 0.23) !important;
+  }
+
+  .commission-table-wrap .table-row > div:last-child {
+    background:
+      rgba(163, 73, 230, 0.12) !important;
+
+    backdrop-filter:
+      blur(32px) saturate(150%) !important;
+
+    -webkit-backdrop-filter:
+      blur(32px) saturate(150%) !important;
+  }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .commission-table-wrap .commission-table-decoration {
+    width: 220px;
+    right: -65px;
+    opacity: 0.38;
+  }
+
+  .commission-table-wrap::before {
+    width: 220px;
+    height: 220px;
+    right: -10px;
+    filter: blur(28px);
+  }
+
+  .commission-table-wrap .table-row > div {
+    background:
+      rgba(255, 255, 255, 0.20) !important;
+
+    backdrop-filter:
+      blur(24px) saturate(135%) !important;
+
+    -webkit-backdrop-filter:
+      blur(24px) saturate(135%) !important;
+  }
+
+  .commission-table-wrap .table-row > div:first-child {
+    background:
+      rgba(247, 247, 249, 0.22) !important;
+  }
+
+  .commission-table-wrap .table-row > div:last-child {
+    background:
+      rgba(163, 73, 230, 0.11) !important;
+
+    backdrop-filter:
+      blur(28px) saturate(145%) !important;
+
+    -webkit-backdrop-filter:
+      blur(28px) saturate(145%) !important;
+  }
+}
+
+/* Small mobile */
+@media (max-width: 480px) {
+  .commission-table-wrap .commission-table-decoration {
+    width: 190px;
+    right: -70px;
+  }
+
+  .commission-table-wrap .table-row > div {
+    backdrop-filter:
+      blur(22px) saturate(135%) !important;
+
+    -webkit-backdrop-filter:
+      blur(22px) saturate(135%) !important;
+  }
+
+  .commission-table-wrap .table-row > div:last-child {
+    backdrop-filter:
+      blur(26px) saturate(140%) !important;
+
+    -webkit-backdrop-filter:
+      blur(26px) saturate(140%) !important;
+  }
+}
+
