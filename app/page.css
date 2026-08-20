@@ -1568,7 +1568,7 @@ a {
 .cards-glow {
   position: absolute;
 
-  width: 1500.2px;
+  width: 1700.2px;
   height: 507.92px;
 
   top: 582.64px;
@@ -3701,7 +3701,7 @@ left: -10px;
 
   top: 360px;
 
-  right: 45px;
+  right: 150px;
 
   rotate: -35deg;
 
@@ -6061,6 +6061,7 @@ left: -10px;
   width: 145px;
 
   height: auto;
+
 }
 
 
@@ -8953,7 +8954,7 @@ img {
 @media (max-width: 380px) {
   .footer-vector {
     width: 155vw;
-    bottom: -5px;
+    bottom: -8px;
   }
 }
 
@@ -10217,3 +10218,345 @@ img {
   }
 }
 
+/* =========================================================
+   FINAL DESIGN UPDATE
+   1. Footer vector/logo moved 50px downward
+   2. Step number circles get screenshot-style light/glow
+   3. Commission decoration stays behind the table at 40%
+      opacity and scales responsively from the desktop layout
+   ========================================================= */
+
+/* =========================================================
+   1. FOOTER VECTOR — MOVE DOWN 50px
+   ========================================================= */
+
+.footer-vector {
+  bottom: -32px !important;
+}
+
+@media (min-width: 901px) and (max-width: 1199px) {
+  .footer-vector {
+    bottom: -35px !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 900px) {
+  .footer-vector {
+    bottom: -38px !important;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .footer-vector {
+    bottom: -40px !important;
+  }
+}
+
+@media (min-width: 381px) and (max-width: 480px) {
+  .footer-vector {
+    bottom: -42px !important;
+  }
+}
+
+@media (max-width: 380px) {
+  .footer-vector {
+    bottom: -43px !important;
+  }
+}
+
+
+/* =========================================================
+   2. HOW TO START TRADING — NUMBER PNG LIGHT
+   ========================================================= */
+
+.step-number {
+  position: relative;
+
+  width: 72px;
+  height: 72px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin: 0 auto 17px;
+
+  /* Remove the old CSS-generated circle */
+  border: none;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+
+  color: #ffffff;
+
+  font-family:
+    "Google Sans Flex",
+    sans-serif;
+
+  font-size: 34px;
+  font-weight: 400;
+  line-height: 1;
+
+  overflow: visible;
+  isolation: isolate;
+}
+
+/* PNG light behind the number */
+.step-number .step-number-light {
+  position: absolute;
+
+  width: 100%;
+  height: 100%;
+
+  left: 50%;
+  top: 50%;
+
+  transform: translate(-50%, -50%);
+
+  object-fit: contain;
+
+  pointer-events: none;
+  user-select: none;
+
+  z-index: 0;
+}
+
+/* Number stays above the PNG */
+.step-number .step-number-text {
+  position: relative;
+
+  z-index: 2;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #ffffff;
+
+  font-family:
+    "Google Sans Flex",
+    sans-serif;
+
+  font-size: 34px;
+  font-weight: 400;
+  line-height: 1;
+
+  pointer-events: none;
+}
+
+/* Tablet */
+@media (max-width: 1023px) {
+  .step-number {
+    width: 64px;
+    height: 64px;
+  }
+
+  .step-number .step-number-text {
+    font-size: 30px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+  .step-number {
+    width: 58px;
+    height: 58px;
+    margin-bottom: 14px;
+  }
+
+  .step-number .step-number-text {
+    font-size: 27px;
+  }
+}
+
+/* Small mobile */
+@media (max-width: 480px) {
+  .step-number {
+    width: 54px;
+    height: 54px;
+  }
+
+  .step-number .step-number-text {
+    font-size: 25px;
+  }
+}
+
+/* Very small mobile */
+@media (max-width: 380px) {
+  .step-number {
+    width: 50px;
+    height: 50px;
+  }
+
+  .step-number .step-number-text {
+    font-size: 23px;
+  }
+}
+
+
+/* =========================================================
+   3. COMMISSION DECORATION
+   Keep it behind the glass table on every screen.
+   Opacity is fixed at 40%.
+   Position is tied to the table wrapper rather than fixed
+   pixel top values so it stays aligned as the table changes.
+   ========================================================= */
+
+.commission-table-wrap {
+  position: relative !important;
+  isolation: isolate !important;
+  overflow: visible !important;
+}
+
+.commission-table-wrap .commission-table-decoration {
+  position: absolute !important;
+
+  width: 430px !important;
+  height: auto !important;
+
+  top: 50% !important;
+  right: -5px !important;
+
+  transform:
+    translate(35%, -50%)
+    rotate(-45deg) !important;
+
+  object-fit: contain !important;
+
+  opacity: 0.40 !important;
+
+  z-index: 0 !important;
+
+  pointer-events: none !important;
+  user-select: none !important;
+
+  max-width: none !important;
+}
+
+/* Soft purple light behind the decoration */
+.commission-table-wrap::before {
+  content: "";
+
+  position: absolute;
+
+  width: 380px;
+  height: 320px;
+
+  top: 50%;
+  right: 25px;
+
+  transform: translateY(-50%);
+
+  background:
+    radial-gradient(
+      ellipse,
+      rgba(151, 43, 255, 0.30) 0%,
+      rgba(151, 43, 255, 0.14) 38%,
+      rgba(151, 43, 255, 0) 72%
+    );
+
+  filter: blur(35px);
+
+  z-index: 0;
+
+  pointer-events: none;
+}
+
+/* Table remains above the decoration */
+.commission-table-wrap .commission-table {
+  position: relative !important;
+  z-index: 2 !important;
+  isolation: auto !important;
+}
+
+
+/* Tablet — 768px to 1023px */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .commission-table-wrap .commission-table-decoration {
+    width: 340px !important;
+    top: 50% !important;
+    right: -35px !important;
+
+    transform:
+      translate(35%, -50%)
+      rotate(-45deg) !important;
+
+    opacity: 0.40 !important;
+  }
+
+  .commission-table-wrap::before {
+    width: 300px;
+    height: 270px;
+    top: 50%;
+    right: 5px;
+  }
+}
+
+
+/* Mobile — 481px to 767px */
+@media (min-width: 481px) and (max-width: 767px) {
+  .commission-table-wrap .commission-table-decoration {
+    width: 270px !important;
+    top: 50% !important;
+    right: -45px !important;
+
+    transform:
+      translate(35%, -50%)
+      rotate(-45deg) !important;
+
+    opacity: 0.40 !important;
+  }
+
+  .commission-table-wrap::before {
+    width: 250px;
+    height: 230px;
+    top: 50%;
+    right: -5px;
+  }
+}
+
+
+/* Small mobile — 381px to 480px */
+@media (min-width: 381px) and (max-width: 480px) {
+  .commission-table-wrap .commission-table-decoration {
+    width: 235px !important;
+    top: 50% !important;
+    right: -55px !important;
+
+    transform:
+      translate(35%, -50%)
+      rotate(-45deg) !important;
+
+    opacity: 0.40 !important;
+  }
+
+  .commission-table-wrap::before {
+    width: 220px;
+    height: 210px;
+    top: 50%;
+    right: -10px;
+  }
+}
+
+
+/* Very small mobile — <= 380px */
+@media (max-width: 380px) {
+  .commission-table-wrap .commission-table-decoration {
+    width: 210px !important;
+    top: 50% !important;
+    right: -55px !important;
+
+    transform:
+      translate(35%, -50%)
+      rotate(-45deg) !important;
+
+    opacity: 0.40 !important;
+  }
+
+  .commission-table-wrap::before {
+    width: 200px;
+    height: 190px;
+    top: 50%;
+    right: -15px;
+  }
+}

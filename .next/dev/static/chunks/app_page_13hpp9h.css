@@ -855,7 +855,7 @@ a {
   -webkit-user-select: none;
   user-select: none;
   z-index: 0;
-  width: 1500.2px;
+  width: 1700.2px;
   max-width: none;
   height: 507.92px;
   position: absolute;
@@ -1903,7 +1903,7 @@ a {
   height: auto;
   position: absolute;
   top: 360px;
-  right: 45px;
+  right: 150px;
   rotate: -35deg;
 }
 
@@ -4892,7 +4892,7 @@ img {
 @media (max-width: 380px) {
   .footer-vector {
     width: 155vw;
-    bottom: -5px;
+    bottom: -8px;
   }
 }
 
@@ -5546,36 +5546,6 @@ img {
   overflow: visible;
 }
 
-.commission-table-wrap .commission-table-decoration {
-  object-fit: contain;
-  opacity: .42;
-  z-index: 0;
-  pointer-events: none;
-  -webkit-user-select: none;
-  user-select: none;
-  width: 400px;
-  max-width: none;
-  height: auto;
-  position: absolute;
-  top: 50%;
-  right: -15px;
-  transform: translateY(-50%)rotate(-45deg);
-}
-
-.commission-table-wrap:before {
-  content: "";
-  filter: blur(35px);
-  z-index: 0;
-  pointer-events: none;
-  background: radial-gradient(#972bff4d 0%, #972bff24 38%, #972bff00 72%);
-  width: 360px;
-  height: 300px;
-  position: absolute;
-  top: 52%;
-  right: 45px;
-  transform: translateY(-50%);
-}
-
 .commission-table-wrap .commission-table {
   z-index: 2;
   opacity: 1;
@@ -5690,6 +5660,244 @@ img {
 
   .commission-table-wrap .table-row > div:last-child {
     -webkit-backdrop-filter: blur(26px) saturate(140%) !important;
+  }
+}
+
+.footer-vector {
+  bottom: -32px !important;
+}
+
+@media (min-width: 901px) and (max-width: 1199px) {
+  .footer-vector {
+    bottom: -35px !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 900px) {
+  .footer-vector {
+    bottom: -38px !important;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .footer-vector {
+    bottom: -40px !important;
+  }
+}
+
+@media (min-width: 381px) and (max-width: 480px) {
+  .footer-vector {
+    bottom: -42px !important;
+  }
+}
+
+@media (max-width: 380px) {
+  .footer-vector {
+    bottom: -43px !important;
+  }
+}
+
+.step-number {
+  width: 72px;
+  height: 72px;
+  box-shadow: none;
+  color: #fff;
+  isolation: isolate;
+  background: none;
+  border: none;
+  border-radius: 0;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 17px;
+  font-family: Google Sans Flex, sans-serif;
+  font-size: 34px;
+  font-weight: 400;
+  line-height: 1;
+  display: flex;
+  position: relative;
+  overflow: visible;
+}
+
+.step-number .step-number-light {
+  object-fit: contain;
+  pointer-events: none;
+  -webkit-user-select: none;
+  user-select: none;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.step-number .step-number-text {
+  z-index: 2;
+  color: #fff;
+  pointer-events: none;
+  justify-content: center;
+  align-items: center;
+  font-family: Google Sans Flex, sans-serif;
+  font-size: 34px;
+  font-weight: 400;
+  line-height: 1;
+  display: flex;
+  position: relative;
+}
+
+@media (max-width: 1023px) {
+  .step-number {
+    width: 64px;
+    height: 64px;
+  }
+
+  .step-number .step-number-text {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .step-number {
+    width: 58px;
+    height: 58px;
+    margin-bottom: 14px;
+  }
+
+  .step-number .step-number-text {
+    font-size: 27px;
+  }
+}
+
+@media (max-width: 480px) {
+  .step-number {
+    width: 54px;
+    height: 54px;
+  }
+
+  .step-number .step-number-text {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 380px) {
+  .step-number {
+    width: 50px;
+    height: 50px;
+  }
+
+  .step-number .step-number-text {
+    font-size: 23px;
+  }
+}
+
+.commission-table-wrap {
+  isolation: isolate !important;
+  position: relative !important;
+  overflow: visible !important;
+}
+
+.commission-table-wrap .commission-table-decoration {
+  object-fit: contain !important;
+  opacity: .4 !important;
+  z-index: 0 !important;
+  pointer-events: none !important;
+  -webkit-user-select: none !important;
+  user-select: none !important;
+  width: 430px !important;
+  max-width: none !important;
+  height: auto !important;
+  position: absolute !important;
+  top: 50% !important;
+  right: -5px !important;
+  transform: translate(35%, -50%)rotate(-45deg) !important;
+}
+
+.commission-table-wrap:before {
+  content: "";
+  filter: blur(35px);
+  z-index: 0;
+  pointer-events: none;
+  background: radial-gradient(#972bff4d 0%, #972bff24 38%, #972bff00 72%);
+  width: 380px;
+  height: 320px;
+  position: absolute;
+  top: 50%;
+  right: 25px;
+  transform: translateY(-50%);
+}
+
+.commission-table-wrap .commission-table {
+  z-index: 2 !important;
+  isolation: auto !important;
+  position: relative !important;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .commission-table-wrap .commission-table-decoration {
+    opacity: .4 !important;
+    width: 340px !important;
+    top: 50% !important;
+    right: -35px !important;
+    transform: translate(35%, -50%)rotate(-45deg) !important;
+  }
+
+  .commission-table-wrap:before {
+    width: 300px;
+    height: 270px;
+    top: 50%;
+    right: 5px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .commission-table-wrap .commission-table-decoration {
+    opacity: .4 !important;
+    width: 270px !important;
+    top: 50% !important;
+    right: -45px !important;
+    transform: translate(35%, -50%)rotate(-45deg) !important;
+  }
+
+  .commission-table-wrap:before {
+    width: 250px;
+    height: 230px;
+    top: 50%;
+    right: -5px;
+  }
+}
+
+@media (min-width: 381px) and (max-width: 480px) {
+  .commission-table-wrap .commission-table-decoration {
+    opacity: .4 !important;
+    width: 235px !important;
+    top: 50% !important;
+    right: -55px !important;
+    transform: translate(35%, -50%)rotate(-45deg) !important;
+  }
+
+  .commission-table-wrap:before {
+    width: 220px;
+    height: 210px;
+    top: 50%;
+    right: -10px;
+  }
+}
+
+@media (max-width: 380px) {
+  .commission-table-wrap .commission-table-decoration {
+    opacity: .4 !important;
+    width: 210px !important;
+    top: 50% !important;
+    right: -55px !important;
+    transform: translate(35%, -50%)rotate(-45deg) !important;
+  }
+
+  .commission-table-wrap:before {
+    width: 200px;
+    height: 190px;
+    top: 50%;
+    right: -15px;
   }
 }
 

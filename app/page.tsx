@@ -457,14 +457,6 @@ export default function PartnerPage() {
 
 <section className="commission-section" id="trading">
 
-  {/* Background 3D decoration */}
-  <img
-    src="/images/commission-decoration.png"
-    alt=""
-    className="commission-decoration"
-    aria-hidden="true"
-  />
-
   <div className="container commission-container">
 
     {/* Commission Heading */}
@@ -480,12 +472,22 @@ export default function PartnerPage() {
     </p>
 
 
-    <div className="commission-table">
+    <div className="commission-table-wrap">
 
-  <div
-    className="commission-table-border"
-    aria-hidden="true"
-  />
+      {/* Commission decoration — stays behind the glass table */}
+      <img
+        src="/images/commission-decoration.png"
+        alt=""
+        className="commission-table-decoration"
+        aria-hidden="true"
+      />
+
+      <div className="commission-table">
+
+        <div
+          className="commission-table-border"
+          aria-hidden="true"
+        />
 
   <div className="table-row">
     <div>Forex</div>
@@ -532,6 +534,8 @@ export default function PartnerPage() {
       <div className="table-row">
         <div>Commodities</div>
         <div>$50/Lot</div>
+      </div>
+
       </div>
 
     </div>
@@ -585,7 +589,16 @@ export default function PartnerPage() {
       <div className="step">
 
         <div className="step-number">
-          1
+          <img
+            src="/images/step-number-glow.png"
+            alt=""
+            className="step-number-light"
+            aria-hidden="true"
+          />
+
+          <span className="step-number-text">
+            1
+          </span>
         </div>
 
         <h3>
@@ -607,7 +620,16 @@ export default function PartnerPage() {
       <div className="step">
 
         <div className="step-number">
-          2
+          <img
+            src="/images/step-number-glow.png"
+            alt=""
+            className="step-number-light"
+            aria-hidden="true"
+          />
+
+          <span className="step-number-text">
+            2
+          </span>
         </div>
 
         <h3>
@@ -629,7 +651,16 @@ export default function PartnerPage() {
       <div className="step">
 
         <div className="step-number">
-          3
+          <img
+            src="/images/step-number-glow.png"
+            alt=""
+            className="step-number-light"
+            aria-hidden="true"
+          />
+
+          <span className="step-number-text">
+            3
+          </span>
         </div>
 
         <h3>
@@ -651,7 +682,16 @@ export default function PartnerPage() {
       <div className="step">
 
         <div className="step-number">
-          4
+          <img
+            src="/images/step-number-glow.png"
+            alt=""
+            className="step-number-light"
+            aria-hidden="true"
+          />
+
+          <span className="step-number-text">
+            4
+          </span>
         </div>
 
         <h3>
@@ -673,7 +713,16 @@ export default function PartnerPage() {
       <div className="step">
 
         <div className="step-number">
-          5
+          <img
+            src="/images/step-number-glow.png"
+            alt=""
+            className="step-number-light"
+            aria-hidden="true"
+          />
+
+          <span className="step-number-text">
+            5
+          </span>
         </div>
 
         <h3>

@@ -1,44 +1,55 @@
-{"timestamp":"00:00:01.339","source":"Server","level":"LOG","message":""}
-{"timestamp":"00:00:03.795","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
-{"timestamp":"00:00:05.301","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
-{"timestamp":"00:09:48.290","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
-{"timestamp":"00:18:05.036","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
-{"timestamp":"00:28:32.147","source":"Server","level":"LOG","message":"✓ Compiled in 97ms"}
-{"timestamp":"00:45:42.470","source":"Server","level":"LOG","message":"✓ Compiled in 73ms"}
-{"timestamp":"00:46:56.405","source":"Server","level":"LOG","message":"✓ Compiled in 72ms"}
-{"timestamp":"00:47:03.724","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
-{"timestamp":"00:48:39.213","source":"Server","level":"LOG","message":"✓ Compiled in 63ms"}
-{"timestamp":"00:49:23.276","source":"Server","level":"LOG","message":"✓ Compiled in 26ms"}
-{"timestamp":"00:49:30.288","source":"Server","level":"LOG","message":"✓ Compiled in 35ms"}
-{"timestamp":"00:49:35.541","source":"Server","level":"LOG","message":"✓ Compiled in 13ms"}
-{"timestamp":"00:49:46.382","source":"Server","level":"LOG","message":"✓ Compiled in 25ms"}
-{"timestamp":"00:53:33.257","source":"Server","level":"LOG","message":"✓ Compiled in 335ms"}
-{"timestamp":"00:53:50.723","source":"Server","level":"LOG","message":"✓ Compiled in 52ms"}
-{"timestamp":"00:54:06.192","source":"Server","level":"LOG","message":"✓ Compiled in 22ms"}
-{"timestamp":"00:54:15.381","source":"Server","level":"LOG","message":"✓ Compiled in 14ms"}
-{"timestamp":"00:54:20.831","source":"Server","level":"LOG","message":"✓ Compiled in 14ms"}
-{"timestamp":"00:54:49.008","source":"Server","level":"LOG","message":"✓ Compiled in 24ms"}
-{"timestamp":"00:54:58.289","source":"Server","level":"LOG","message":"✓ Compiled in 16ms"}
-{"timestamp":"00:55:41.439","source":"Server","level":"LOG","message":"✓ Compiled in 22ms"}
-{"timestamp":"00:55:49.610","source":"Server","level":"LOG","message":"✓ Compiled in 20ms"}
-{"timestamp":"00:56:03.152","source":"Server","level":"LOG","message":"✓ Compiled in 40ms"}
-{"timestamp":"00:56:10.754","source":"Server","level":"LOG","message":"✓ Compiled in 17ms"}
-{"timestamp":"00:56:21.692","source":"Server","level":"LOG","message":"✓ Compiled in 29ms"}
-{"timestamp":"00:56:26.473","source":"Server","level":"LOG","message":"✓ Compiled in 15ms"}
-{"timestamp":"00:56:31.942","source":"Server","level":"LOG","message":"✓ Compiled in 19ms"}
-{"timestamp":"00:57:06.393","source":"Server","level":"LOG","message":"✓ Compiled in 23ms"}
-{"timestamp":"00:57:18.707","source":"Server","level":"LOG","message":"✓ Compiled in 26ms"}
-{"timestamp":"00:57:26.370","source":"Server","level":"LOG","message":"✓ Compiled in 15ms"}
-{"timestamp":"00:57:37.946","source":"Server","level":"LOG","message":"✓ Compiled in 20ms"}
-{"timestamp":"00:57:54.024","source":"Server","level":"LOG","message":"✓ Compiled in 19ms"}
-{"timestamp":"00:57:59.361","source":"Server","level":"LOG","message":"✓ Compiled in 40ms"}
-{"timestamp":"00:58:06.062","source":"Server","level":"LOG","message":"✓ Compiled in 20ms"}
-{"timestamp":"00:58:11.756","source":"Server","level":"LOG","message":"✓ Compiled in 16ms"}
-{"timestamp":"01:00:31.806","source":"Server","level":"LOG","message":"✓ Compiled in 77ms"}
-{"timestamp":"01:00:48.503","source":"Server","level":"LOG","message":"✓ Compiled in 66ms"}
-{"timestamp":"01:01:19.695","source":"Server","level":"LOG","message":"✓ Compiled in 24ms"}
-{"timestamp":"01:03:09.124","source":"Server","level":"LOG","message":"✓ Compiled in 18ms"}
-{"timestamp":"01:03:23.949","source":"Server","level":"LOG","message":"✓ Compiled in 26ms"}
-{"timestamp":"01:04:13.856","source":"Server","level":"LOG","message":"✓ Compiled in 22ms"}
-{"timestamp":"01:04:48.508","source":"Server","level":"LOG","message":"✓ Compiled in 24ms"}
-{"timestamp":"01:05:07.635","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:00:02.767","source":"Server","level":"LOG","message":""}
+{"timestamp":"00:00:09.846","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:01:23.721","source":"Server","level":"LOG","message":"✓ Compiled in 64ms"}
+{"timestamp":"00:02:01.652","source":"Server","level":"LOG","message":"✓ Compiled in 35ms"}
+{"timestamp":"00:02:16.905","source":"Server","level":"LOG","message":"✓ Compiled in 21ms"}
+{"timestamp":"00:04:55.542","source":"Server","level":"LOG","message":"✓ Compiled in 25ms"}
+{"timestamp":"00:04:59.365","source":"Server","level":"LOG","message":"✓ Compiled in 198ms"}
+{"timestamp":"00:05:24.379","source":"Server","level":"LOG","message":"✓ Compiled in 32ms"}
+{"timestamp":"00:05:29.384","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:05:30.161","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:10:19.522","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:10:34.258","source":"Server","level":"LOG","message":"✓ Compiled in 32ms"}
+{"timestamp":"00:10:42.439","source":"Server","level":"LOG","message":"✓ Compiled in 18ms"}
+{"timestamp":"00:11:31.378","source":"Server","level":"LOG","message":"✓ Compiled in 53ms"}
+{"timestamp":"00:11:37.980","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:17:57.633","source":"Server","level":"LOG","message":"✓ Compiled in 75ms"}
+{"timestamp":"00:18:09.247","source":"Server","level":"LOG","message":"✓ Compiled in 71ms"}
+{"timestamp":"00:18:17.138","source":"Server","level":"LOG","message":"✓ Compiled in 24ms"}
+{"timestamp":"00:47:57.550","source":"Server","level":"LOG","message":"✓ Compiled in 84ms"}
+{"timestamp":"01:57:10.071","source":"Server","level":"LOG","message":"✓ Compiled in 94ms"}
+{"timestamp":"01:57:18.506","source":"Server","level":"LOG","message":"✓ Compiled in 284ms"}
+{"timestamp":"01:59:08.156","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"01:59:28.603","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"02:00:26.490","source":"Server","level":"LOG","message":"✓ Compiled in 97ms"}
+{"timestamp":"02:00:33.793","source":"Server","level":"LOG","message":"✓ Compiled in 27ms"}
+{"timestamp":"02:00:37.926","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"02:01:06.469","source":"Server","level":"LOG","message":"✓ Compiled in 37ms"}
+{"timestamp":"02:01:23.431","source":"Server","level":"LOG","message":"✓ Compiled in 22ms"}
+{"timestamp":"02:01:27.683","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"02:02:03.198","source":"Server","level":"LOG","message":"✓ Compiled in 27ms"}
+{"timestamp":"02:02:05.132","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"02:03:07.239","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"02:03:25.465","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"02:09:26.863","source":"Browser","level":"ERROR","message":"./app/page.css:3:37\nError: Parsing CSS source code failed\n  1 | \"use client\";\n  2 |\n> 3 | import { useEffect, useState } from \"react\";\n    |                                     ^\n  4 | import \"./page.css\";\n  5 |\n  6 | export default function PartnerPage() {\n\nInvalid dangling combinator in selector\n\nGenerated code of PostCSS transform of file content of app/page.css:\n./app/page.css:3:37\n  1 | \"use client\";\n  2 |\n> 3 | import { useEffect, useState } from \"react\";\n    |                                     ^\n  4 | import \"./page.css\";\n  5 |\n  6 | export default function PartnerPage() {\n\nImport traces:\n  #1 [Client Component Browser]:\n    ./app/page.css [Client Component Browser]\n    ./app/layout.tsx [Server Component]\n\n  #2 [Client Component Browser]:\n    ./app/page.css [Client Component Browser]\n    ./app/page.tsx [Client Component Browser]\n    ./app/page.tsx [Server Component] "}
+{"timestamp":"02:09:26.867","source":"Server","level":"ERROR","message":"[browser] \"./app/page.css:3:37\\nError: Parsing CSS source code failed\\n  1 | \\\"use client\\\";\\n  2 |\\n> 3 | import { useEffect, useState } from \\\"react\\\";\\n    |                                     ^\\n  4 | import \\\"./page.css\\\";\\n  5 |\\n  6 | export default function PartnerPage() {\\n\\nInvalid dangling combinator in selector\\n\\nGenerated code of PostCSS transform of file content of app/page.css:\\n./app/page.css:3:37\\n  1 | \\\"use client\\\";\\n  2 |\\n> 3 | import { useEffect, useState } from \\\"react\\\";\\n    |                                     ^\\n  4 | import \\\"./page.css\\\";\\n  5 |\\n  6 | export default function PartnerPage() {\\n\\nImport traces:\\n  #1 [Client Component Browser]:\\n    ./app/page.css [Client Component Browser]\\n    ./app/layout.tsx [Server Component]\\n\\n  #2 [Client Component Browser]:\\n    ./app/page.css [Client Component Browser]\\n    ./app/page.tsx [Client Component Browser]\\n    ./app/page.tsx [Server Component]\" \"\""}
+{"timestamp":"02:09:26.868","source":"Browser","level":"ERROR","message":"./app/page.css:1:1\nError: Parsing CSS source code failed\n> 1 | \"use client\";\n    | ^\n  2 |\n  3 | import { useEffect, useState } from \"react\";\n  4 | import \"./page.css\";\n\nInvalid empty selector\n\nGenerated code of PostCSS transform of file content of app/page.css:\n./app/page.css:1:1\n> 1 | \"use client\";\n    | ^\n  2 |\n  3 | import { useEffect, useState } from \"react\";\n  4 | import \"./page.css\";\n\nImport traces:\n  #1 [Client Component Browser]:\n    ./app/page.css [Client Component Browser]\n    ./app/layout.tsx [Server Component]\n\n  #2 [Client Component Browser]:\n    ./app/page.css [Client Component Browser]\n    ./app/page.tsx [Client Component Browser]\n    ./app/page.tsx [Server Component] "}
+{"timestamp":"02:09:26.868","source":"Server","level":"ERROR","message":"[browser] \"./app/page.css:1:1\\nError: Parsing CSS source code failed\\n> 1 | \\\"use client\\\";\\n    | ^\\n  2 |\\n  3 | import { useEffect, useState } from \\\"react\\\";\\n  4 | import \\\"./page.css\\\";\\n\\nInvalid empty selector\\n\\nGenerated code of PostCSS transform of file content of app/page.css:\\n./app/page.css:1:1\\n> 1 | \\\"use client\\\";\\n    | ^\\n  2 |\\n  3 | import { useEffect, useState } from \\\"react\\\";\\n  4 | import \\\"./page.css\\\";\\n\\nImport traces:\\n  #1 [Client Component Browser]:\\n    ./app/page.css [Client Component Browser]\\n    ./app/layout.tsx [Server Component]\\n\\n  #2 [Client Component Browser]:\\n    ./app/page.css [Client Component Browser]\\n    ./app/page.tsx [Client Component Browser]\\n    ./app/page.tsx [Server Component]\" \"\""}
+{"timestamp":"02:09:26.912","source":"Server","level":"LOG","message":"✓ Compiled in 21ms"}
+{"timestamp":"02:09:26.979","source":"Browser","level":"ERROR","message":"./app/page.css:3:37\nError: Parsing CSS source code failed\n  1 | \"use client\";\n  2 |\n> 3 | import { useEffect, useState } from \"react\";\n    |                                     ^\n  4 | import \"./page.css\";\n  5 |\n  6 | export default function PartnerPage() {\n\nInvalid dangling combinator in selector\n\nGenerated code of PostCSS transform of file content of app/page.css:\n./app/page.css:3:37\n  1 | \"use client\";\n  2 |\n> 3 | import { useEffect, useState } from \"react\";\n    |                                     ^\n  4 | import \"./page.css\";\n  5 |\n  6 | export default function PartnerPage() {\n\nImport traces:\n  #1 [Client Component Browser]:\n    ./app/page.css [Client Component Browser]\n    ./app/layout.tsx [Server Component]\n\n  #2 [Client Component Browser]:\n    ./app/page.css [Client Component Browser]\n    ./app/page.tsx [Client Component Browser]\n    ./app/page.tsx [Server Component] "}
+{"timestamp":"02:09:26.980","source":"Server","level":"ERROR","message":"[browser] \"./app/page.css:3:37\\nError: Parsing CSS source code failed\\n  1 | \\\"use client\\\";\\n  2 |\\n> 3 | import { useEffect, useState } from \\\"react\\\";\\n    |                                     ^\\n  4 | import \\\"./page.css\\\";\\n  5 |\\n  6 | export default function PartnerPage() {\\n\\nInvalid dangling combinator in selector\\n\\nGenerated code of PostCSS transform of file content of app/page.css:\\n./app/page.css:3:37\\n  1 | \\\"use client\\\";\\n  2 |\\n> 3 | import { useEffect, useState } from \\\"react\\\";\\n    |                                     ^\\n  4 | import \\\"./page.css\\\";\\n  5 |\\n  6 | export default function PartnerPage() {\\n\\nImport traces:\\n  #1 [Client Component Browser]:\\n    ./app/page.css [Client Component Browser]\\n    ./app/layout.tsx [Server Component]\\n\\n  #2 [Client Component Browser]:\\n    ./app/page.css [Client Component Browser]\\n    ./app/page.tsx [Client Component Browser]\\n    ./app/page.tsx [Server Component]\" \"\""}
+{"timestamp":"02:09:26.980","source":"Browser","level":"ERROR","message":"./app/page.css:1:1\nError: Parsing CSS source code failed\n> 1 | \"use client\";\n    | ^\n  2 |\n  3 | import { useEffect, useState } from \"react\";\n  4 | import \"./page.css\";\n\nInvalid empty selector\n\nGenerated code of PostCSS transform of file content of app/page.css:\n./app/page.css:1:1\n> 1 | \"use client\";\n    | ^\n  2 |\n  3 | import { useEffect, useState } from \"react\";\n  4 | import \"./page.css\";\n\nImport traces:\n  #1 [Client Component Browser]:\n    ./app/page.css [Client Component Browser]\n    ./app/layout.tsx [Server Component]\n\n  #2 [Client Component Browser]:\n    ./app/page.css [Client Component Browser]\n    ./app/page.tsx [Client Component Browser]\n    ./app/page.tsx [Server Component] "}
+{"timestamp":"02:09:26.980","source":"Server","level":"ERROR","message":"[browser] \"./app/page.css:1:1\\nError: Parsing CSS source code failed\\n> 1 | \\\"use client\\\";\\n    | ^\\n  2 |\\n  3 | import { useEffect, useState } from \\\"react\\\";\\n  4 | import \\\"./page.css\\\";\\n\\nInvalid empty selector\\n\\nGenerated code of PostCSS transform of file content of app/page.css:\\n./app/page.css:1:1\\n> 1 | \\\"use client\\\";\\n    | ^\\n  2 |\\n  3 | import { useEffect, useState } from \\\"react\\\";\\n  4 | import \\\"./page.css\\\";\\n\\nImport traces:\\n  #1 [Client Component Browser]:\\n    ./app/page.css [Client Component Browser]\\n    ./app/layout.tsx [Server Component]\\n\\n  #2 [Client Component Browser]:\\n    ./app/page.css [Client Component Browser]\\n    ./app/page.tsx [Client Component Browser]\\n    ./app/page.tsx [Server Component]\" \"\""}
+{"timestamp":"02:09:36.352","source":"Server","level":"LOG","message":"✓ Compiled in 96ms"}
+{"timestamp":"02:10:30.019","source":"Server","level":"LOG","message":"✓ Compiled in 25ms"}
+{"timestamp":"02:14:10.568","source":"Server","level":"LOG","message":"✓ Compiled in 76ms"}
+{"timestamp":"02:14:14.165","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"02:14:21.363","source":"Server","level":"LOG","message":"✓ Compiled in 87ms"}
+{"timestamp":"02:14:24.028","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"02:14:45.089","source":"Server","level":"LOG","message":"✓ Compiled in 37ms"}
+{"timestamp":"02:14:52.722","source":"Server","level":"LOG","message":"✓ Compiled in 22ms"}
+{"timestamp":"02:14:55.914","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"02:15:06.177","source":"Server","level":"LOG","message":"✓ Compiled in 25ms"}
+{"timestamp":"02:15:45.151","source":"Server","level":"LOG","message":"✓ Compiled in 37ms"}
+{"timestamp":"02:15:48.170","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"02:15:51.963","source":"Server","level":"LOG","message":"✓ Compiled in 28ms"}
