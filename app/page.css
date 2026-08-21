@@ -989,6 +989,12 @@ a {
     isolate;
 }
 
+
+
+
+
+
+
 /* =========================================================
    LARGE LAPTOP
    1200px - 1399px
@@ -10217,7 +10223,6 @@ img {
       blur(26px) saturate(140%) !important;
   }
 }
-
 /* =========================================================
    FINAL DESIGN UPDATE
    1. Footer vector/logo moved 50px downward
@@ -10226,8 +10231,11 @@ img {
       opacity and scales responsively from the desktop layout
    ========================================================= */
 
+
 /* =========================================================
-   1. FOOTER VECTOR — MOVE DOWN 50px
+   1. FOOTER VECTOR
+   Desktop / Tablet unchanged
+   Mobile moved upward
    ========================================================= */
 
 .footer-vector {
@@ -10246,21 +10254,26 @@ img {
   }
 }
 
+
+/* =========================================================
+   MOBILE — MOVE FOOTER PARTNER LOGO UP
+   ========================================================= */
+
 @media (min-width: 481px) and (max-width: 767px) {
   .footer-vector {
-    bottom: -40px !important;
+    bottom: 20px !important;
   }
 }
 
 @media (min-width: 381px) and (max-width: 480px) {
   .footer-vector {
-    bottom: -42px !important;
+    bottom: 30px !important;
   }
 }
 
 @media (max-width: 380px) {
   .footer-vector {
-    bottom: -43px !important;
+    bottom: 35px !important;
   }
 }
 
@@ -10301,7 +10314,9 @@ img {
   isolation: isolate;
 }
 
+
 /* PNG light behind the number */
+
 .step-number .step-number-light {
   position: absolute;
 
@@ -10321,7 +10336,9 @@ img {
   z-index: 0;
 }
 
+
 /* Number stays above the PNG */
+
 .step-number .step-number-text {
   position: relative;
 
@@ -10344,8 +10361,13 @@ img {
   pointer-events: none;
 }
 
-/* Tablet */
+
+/* =========================================================
+   TABLET
+   ========================================================= */
+
 @media (max-width: 1023px) {
+
   .step-number {
     width: 64px;
     height: 64px;
@@ -10356,11 +10378,17 @@ img {
   }
 }
 
-/* Mobile */
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
 @media (max-width: 767px) {
+
   .step-number {
     width: 58px;
     height: 58px;
+
     margin-bottom: 14px;
   }
 
@@ -10369,8 +10397,13 @@ img {
   }
 }
 
-/* Small mobile */
+
+/* =========================================================
+   SMALL MOBILE
+   ========================================================= */
+
 @media (max-width: 480px) {
+
   .step-number {
     width: 54px;
     height: 54px;
@@ -10381,8 +10414,13 @@ img {
   }
 }
 
-/* Very small mobile */
+
+/* =========================================================
+   VERY SMALL MOBILE
+   ========================================================= */
+
 @media (max-width: 380px) {
+
   .step-number {
     width: 50px;
     height: 50px;
@@ -10407,6 +10445,7 @@ img {
   isolation: isolate !important;
   overflow: visible !important;
 }
+
 
 .commission-table-wrap .commission-table-decoration {
   position: absolute !important;
@@ -10433,7 +10472,11 @@ img {
   max-width: none !important;
 }
 
-/* Soft purple light behind the decoration */
+
+/* =========================================================
+   SOFT PURPLE LIGHT BEHIND DECORATION
+   ========================================================= */
+
 .commission-table-wrap::before {
   content: "";
 
@@ -10462,18 +10505,30 @@ img {
   pointer-events: none;
 }
 
-/* Table remains above the decoration */
+
+/* =========================================================
+   TABLE REMAINS ABOVE DECORATION
+   ========================================================= */
+
 .commission-table-wrap .commission-table {
   position: relative !important;
+
   z-index: 2 !important;
+
   isolation: auto !important;
 }
 
 
-/* Tablet — 768px to 1023px */
+/* =========================================================
+   TABLET
+   768px to 1023px
+   ========================================================= */
+
 @media (min-width: 768px) and (max-width: 1023px) {
+
   .commission-table-wrap .commission-table-decoration {
     width: 340px !important;
+
     top: 50% !important;
     right: -35px !important;
 
@@ -10484,19 +10539,27 @@ img {
     opacity: 0.40 !important;
   }
 
+
   .commission-table-wrap::before {
     width: 300px;
     height: 270px;
+
     top: 50%;
     right: 5px;
   }
 }
 
 
-/* Mobile — 481px to 767px */
+/* =========================================================
+   MOBILE
+   481px to 767px
+   ========================================================= */
+
 @media (min-width: 481px) and (max-width: 767px) {
+
   .commission-table-wrap .commission-table-decoration {
     width: 270px !important;
+
     top: 50% !important;
     right: -45px !important;
 
@@ -10507,19 +10570,27 @@ img {
     opacity: 0.40 !important;
   }
 
+
   .commission-table-wrap::before {
     width: 250px;
     height: 230px;
+
     top: 50%;
     right: -5px;
   }
 }
 
 
-/* Small mobile — 381px to 480px */
+/* =========================================================
+   SMALL MOBILE
+   381px to 480px
+   ========================================================= */
+
 @media (min-width: 381px) and (max-width: 480px) {
+
   .commission-table-wrap .commission-table-decoration {
     width: 235px !important;
+
     top: 50% !important;
     right: -55px !important;
 
@@ -10530,19 +10601,27 @@ img {
     opacity: 0.40 !important;
   }
 
+
   .commission-table-wrap::before {
     width: 220px;
     height: 210px;
+
     top: 50%;
     right: -10px;
   }
 }
 
 
-/* Very small mobile — <= 380px */
+/* =========================================================
+   VERY SMALL MOBILE
+   <= 380px
+   ========================================================= */
+
 @media (max-width: 380px) {
+
   .commission-table-wrap .commission-table-decoration {
     width: 210px !important;
+
     top: 50% !important;
     right: -55px !important;
 
@@ -10553,9 +10632,11 @@ img {
     opacity: 0.40 !important;
   }
 
+
   .commission-table-wrap::before {
     width: 200px;
     height: 190px;
+
     top: 50%;
     right: -15px;
   }

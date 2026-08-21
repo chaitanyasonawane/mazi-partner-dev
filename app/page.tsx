@@ -193,6 +193,12 @@ export default function PartnerPage() {
       <section className="hero" id="home">
   <div className="hero-frame">
 
+    {/* Transparent blurred hero tile */}
+<div
+  className="hero-blur-tile"
+  aria-hidden="true"
+/>
+
     {/* Purple background glow */}
     <div className="hero-glow" aria-hidden="true" />
 

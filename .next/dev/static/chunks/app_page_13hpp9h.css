@@ -5681,19 +5681,19 @@ img {
 
 @media (min-width: 481px) and (max-width: 767px) {
   .footer-vector {
-    bottom: -40px !important;
+    bottom: 20px !important;
   }
 }
 
 @media (min-width: 381px) and (max-width: 480px) {
   .footer-vector {
-    bottom: -42px !important;
+    bottom: 30px !important;
   }
 }
 
 @media (max-width: 380px) {
   .footer-vector {
-    bottom: -43px !important;
+    bottom: 35px !important;
   }
 }
 
